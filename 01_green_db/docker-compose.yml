@@ -1,0 +1,11 @@
+version: '3'
+services:
+  postgis_greenlu:
+    image: postgis/postgis
+    shm_size: 1g
+    env_file:
+      - database.env
+    volumes:
+      - ./db-data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432

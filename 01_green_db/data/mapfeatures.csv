@@ -1,0 +1,1315 @@
+Key,Value,Element,Group,Description,Count
+aerialway,cable_car,way,,"A cable car run. Just one or two large cars. The traction cable forms a loop, but the cars do not loop around, they just move up and down on their own side, rolling along static cables over which they are suspended.",0 41 0 0
+aerialway,gondola,way,,An aerialway where the cabins go around in a circle,0 41 0 0
+aerialway,mixed_lift,way,,"A mixed lift, containing both gondolas and chairs.",0 4 0 0
+aerialway,chair_lift,way,,An open chairlift run. These have a single seat to sit on and are open to the outside air.,0 157 1 0
+aerialway,drag_lift,way,,An overhead tow-line for skiers and riders.,2 730 17 1
+aerialway,t-bar,way,,An overhead tow-line for skiers and riders with T-shaped carriers for two passengers.,0 273 1 0
+aerialway,j-bar,way,,J-bar lift or L-bar lift. Overhead tow-line for skiers and riders with carriers in J-shape.,0 33 0 0
+aerialway,platter,way,,An overhead tow-line for skiers and riders with platters.,0 56 0 0
+aerialway,rope_tow,way,,A tow-line for skiers and riders where passenger hold by hand or use special tow grabbers.,1 157 6 0
+aerialway,magic_carpet,way,,A ski lift for small children resembling a conveyor belt.,0 76 1 0
+aerialway,zip_line,way,,"Zip line, gravity propelled aerial ropeslide like a flying fox or similar.",0 57 2 0
+aerialway,goods,way,,"A cable supported lift for conveying goods, not passengers. Consider other values for aerialway in combination with access and usage keys instead of this.",0 104 1 0
+aerialway,pylon,node,,A pylon supporting the aerialway cable.,2808 0 3 0
+aerialway,station,node area,,A station where passengers and/or goods can enter and/or leave the aerialway,1225 10 220 0
+aeroway,aerodrome,node area,aeroways,"An aerodrome, airport or airfield",167 2 658 0
+aeroway,apron,area,aeroways,"An area of an airport where planes are parked, unloaded or loaded, refueled, or boarded",0 6 1025 0
+aeroway,gate,node,aeroways,"The bounded space, inside the airport terminal, where passengers wait before boarding their flight",574 0 8 0
+aeroway,hangar,area,aeroways,A large airport building with extensive floor areas for housing aircraft or spacecraft,9 0 880 0
+aeroway,helipad,node area,aeroways,A landing area or platform designed for helicopters,977 0 1261 0
+aeroway,heliport,node area,aeroways,A special aerodrome built for helicopters,1 0 16 0
+aeroway,navigationaid,node,aeroways,A facility that supports visual navigation for aircraft,5152 20 27 0
+aeroway,runway,way,aeroways,A strip of land on which aircraft can take off and land.,0 1153 169 0
+aeroway,spaceport,node area,aeroways,A spaceport or cosmodrome: a site for launching or receiving spacecraft,0 0 0 0
+aeroway,taxiway,way,aeroways,A route where airplanes manouevre between runways and parking areas within an aerodrome,2 6207 138 0
+aeroway,terminal,node area,aeroways,An airport passenger building,30 0 221 0
+aeroway,windsock,node,aeroways,An object that shows wind direction and speed.,548 1 0 0
+amenity,bar,node area,restaurants,"*Bar* is a purpose-built commercial establishment that sells alcoholic drinks to be consumed on the premises. They are characterised by a noisy and vibrant atmosphere, similar to a party and usually don't sell food. See also the description of the tags amenity=pub-bar-restaurant for a distinction between these.",6519 0 597 0
+amenity,biergarten,node area,restaurants,"*Biergarten* or *beer garden* is an open-air area where alcoholic beverages along with food is prepared and served. See also the description of the tags amenity=pub-bar-restaurant. A biergarten can commonly be found attached to a beer hall, pub, bar, or restaurant. In this case, you can use biergarten=yes additional to amenity=pub-bar-restaurant.",3350 2 2917 0
+amenity,cafe,node area,restaurants,"*Cafe* is generally an informal place that offers casual meals and beverages- typically, the focus is on coffee or tea. Also known as a *coffeehouse/shop*, *bistro* or *sidewalk cafe*. The kind of food served may be mapped with the tags cuisine=* and diet=*. See also the tags amenity=restaurant-bar-fast_food.",26785 0 3645 0
+amenity,fast_food,node area,restaurants,Fast food restaurant (see also amenity=restaurant). The kind of food served can be tagged with cuisine=* and diet=*.,29811 2 5975 0
+amenity,food_court,node area,restaurants,"An area with several different restaurant food counters and a shared eating area. Commonly found in malls, airports, etc.",108 0 88 0
+amenity,ice_cream,node area,restaurants,Ice cream shop or ice cream parlour. A place that sells ice cream and frozen yoghurt over the counter,3400 0 323 0
+amenity,pub,node area,restaurants,A place selling beer and other alcoholic drinks- may also provide food or accommodation (UK). See description of amenity=bar and amenity=pub for distinction between bar and pub,15840 0 2744 0
+amenity,restaurant,node area,restaurants,"Restaurant (not fast food, see amenity=fast_food). The kind of food served can be tagged with cuisine=* and diet=*.",77448 0 22154 0
+amenity,college,node area,educational,Campus or buildings of an institute of Further Education (aka continuing education),583 0 696 0
+amenity,driving_school,node area,,Driving School which offers motor vehicle driving lessons,5264 0 693 0
+amenity,kindergarten,node area,educational,"For children too young for a regular school (also known as preschool, playschool or nursery school), in some countries including afternoon supervision of primary school children.",12546 2 24971 0
+amenity,language_school,node area,educational,Language School: an educational institution where one studies a foreign language.,171 0 9 0
+amenity,library,node area,educational,"A public library (municipal, university, ...) to borrow books from.",4092 0 1187 0
+amenity,toy_library,node area,,"A place to borrow games and toys, or play with them on site.",2 0 0 0
+amenity,music_school,node area,educational,"A music school, an educational institution specialized in the study, training, and research of music.",619 0 215 0
+amenity,school,node area,educational,"School and grounds - primary, middle and seconday schools",7437 5 30425 0
+amenity,university,node area,educational,An university campus: an institute of higher education,621 0 1517 0
+amenity,kick-scooter_rental,node area,,Kick-scooter rental,0 0 0 0
+amenity,bicycle_parking,node area,amenity,Parking for bicycles,68045 439 16073 1
+amenity,bicycle_repair_station,node area,,"General tools for self-service bicycle repairs, usually on the roadside- no service",592 0 12 0
+amenity,bicycle_rental,node area,,Rent a bicycle,3377 0 207 0
+amenity,boat_rental,node area,,Rent a Boat,507 0 142 0
+amenity,boat_sharing,node area,,Share a Boat,29 0 5 0
+amenity,bus_station,node area,,May also be tagged as public_transport=station.,889 2 687 0
+amenity,car_rental,node area,,Rent a car,1556 0 460 0
+amenity,car_sharing,node area,,Share a car,2465 0 200 0
+amenity,car_wash,node area,,Wash a car,3675 1 4008 0
+amenity,vehicle_inspection,node area,,Government vehicle inspection,326 0 325 0
+amenity,charging_station,node,,Charging facility for electric vehicles,12535 0 43 0
+amenity,ferry_terminal,node area,,Ferry terminal/stop. A place where people/cars/etc. can board and leave a ferry.,1138 5 35 0
+amenity,fuel,node area,,Petrol station- gas station- marine fuel- ... Streets to petrol stations are often tagged highway=service.,11542 72 6716 0
+amenity,grit_bin,node,,A container that holds grit or a mixture of salt and grit.,9373 0 8 0
+amenity,motorcycle_parking,node area,,Parking for motorcycles,1339 2 508 0
+amenity,parking,node area,,Car park. Nodes and areas (without access tag) will get a parking symbol. Areas will be coloured. Streets on car parking are often tagged highway=service and service=parking_aisle.,57589 66 422766 2
+amenity,parking_entrance,node,,An entrance or exit to an underground or multi-storey parking facility. Group multiple parking entrances together with a relation using the tags type=site and site=parking. Do *not* mix with amenity=parking.,14967 135 71 0
+amenity,parking_space,node area,,A single parking space. Group multiple parking spaces together with a relation using the tags type=site and site=parking. Do *not* mix with amenity=parking.,2205 7 61897 0
+amenity,taxi,node area,,A place where taxis wait for passengers.,4019 3 429 0
+amenity,atm,node,,ATM or cash point: a device that provides the clients of a financial institution with access to financial transactions.,11579 1 78 0
+amenity,bank,node area,,"Bank or credit union: a financial establishment where customers can deposit and withdraw money, take loans, make investments and transfer funds.",19362 0 5271 0
+amenity,bureau_de_change,node,,"Bureau de change, money changer, currency exchange, Wechsel, cambio -- a place to change foreign bank notes and travellers cheques.",128 0 10 0
+amenity,baby_hatch,node area,,"A place where a baby can be, out of necessity, anonymously left to be safely cared for and perhaps adopted.",67 0 1 0
+amenity,clinic,node area,,A medium-sized medical facility or health centre.,504 0 667 0
+amenity,dentist,node area,,A dentist practice / surgery.,10634 0 1135 0
+amenity,doctors,node area,,A doctor's practice / surgery.,23766 1 2663 0
+amenity,hospital,node area,medical_building,A hospital providing in-patient medical treatment. Often used in conjunction with emergency=* to note whether the medical centre has emergency facilities (A&E (brit.) or ER (am.)),435 1 2185 0
+amenity,nursing_home,node area,medical_building,Discouraged tag for a home for disabled or elderly persons who need permanent care. Use amenity=social_facility + social_facility=nursing_home now.,474 0 1772 0
+amenity,pharmacy,node area,,Pharmacy: a shop where a pharmacist sells medications\\,17404 0 1517 0
+amenity,social_facility,node area,,"A facility that provides social services: group & nursing homes, workshops for the disabled, homeless shelters, etc.",6733 0 9813 0
+amenity,veterinary,node area,,"A place where a veterinary surgeon, also known as a veterinarian or vet, practices.",3244 0 911 0
+amenity,arts_centre,node area,,A venue where a variety of arts are performed or conducted,1098 0 935 0
+amenity,brothel,node area,,An establishment specifically dedicated to prostitution,754 0 424 0
+amenity,casino,node area,,"A gambling venue with at least one table game(e.g. roulette, blackjack) that takes bets on sporting and other events at agreed upon odds.",847 0 210 0
+amenity,cinema,node area,,A place where films are shown (US: movie theater),1047 0 434 0
+amenity,community_centre,node area,public_building,"A place mostly used for local events, festivities and group activities- including special interest and special age groups. .",3719 0 8171 0
+amenity,conference_centre,node area,,A large building that is used to hold a convention,33 0 63 0
+amenity,events_venue,node area,,A building specifically used for organising events,312 0 246 0
+amenity,fountain,node area,amenity,A fountain for cultural / decorational / recreational purposes.,17000 7 2787 0
+amenity,gambling,node area,,"A place for gambling, not being a shop=bookmaker, shop=lottery, amenity=casino, or leisure=adult_gaming_centre.",540 0 113 0
+amenity,love_hotel,node area,,A love hotel is a type of short-stay hotel operated primarily for the purpose of allowing guests privacy for sexual activities.,5 0 3 0
+amenity,nightclub,node area,,"A place to drink and dance (nightclub). The German word is ""Disco"" or ""Discothek"". Please don't confuse this with the German ""Nachtclub"" which is most likely amenity=stripclub.",1562 0 489 0
+amenity,planetarium,node area,,A planetarium.,15 0 27 0
+amenity,public_bookcase,node area,,A street furniture containing books. Take one or leave one.,1746 0 27 0
+amenity,social_centre,node area,,A place for free and not-for-profit activities.,138 0 110 0
+amenity,stripclub,node,,A place that offers striptease or lapdancing (for sexual services use /amenity=brothel)/.,68 0 12 0
+amenity,studio,node area,,TV radio or recording studio,420 0 148 0
+amenity,swingerclub,node area,,A club where people meet to have a party and group sex.,150 0 46 0
+amenity,theatre,node area,public_building,"A theatre or opera house where live performances occur, such as plays, musicals and formal concerts. Use amenity=cinema for movie theaters.",1609 1 1168 0
+amenity,courthouse,node area,public_building,"A building home to a court of law, where justice is dispensed",445 1 779 0
+amenity,embassy,node area,,"An embassy, consulate or diplomatic office. Also see office=diplomatic 14px-Diplomatic",29 0 44 0
+amenity,fire_station,node area,,A station of a fire brigade,9555 1 15868 0
+amenity,police,node area,,A police station where police officers patrol from and that is a first point of contact for civilians,2049 2 1640 0
+amenity,post_box,node,,A box for the reception of mail. Alternative mail-carriers can be tagged via operator=*,71905 0 9 0
+amenity,post_depot,node area,,"Post depot or delivery office, where letters and parcels are collected and sorted prior to delivery.",27 0 355 0
+amenity,post_office,node area,,Post office building with postal services,9899 0 698 0
+amenity,prison,node area,,A prison or jail where people are incarcerated before trial or after conviction,35 1 289 0
+amenity,ranger_station,node area,,"National Park visitor headquarters: official park visitor facility with police, visitor information, permit services, etc",5 0 16 0
+amenity,townhall,node area,public_building,"Building where the administration of a village, town or city may be located, or just a community meeting place",2676 0 5305 0
+amenity,bbq,node,amenity,"*BBQ* or *Barbecue* is a permanently built grill for cooking food, which is most typically used outdoors by the public. For example these may be found in city parks or at beaches. Use the tag fuel=* to specify the source of heating, such as fuel=wood-electric-charcoal. For mapping nearby table and chairs, see also the tag tourism=picnic_site. For mapping *campfires* and *firepits*, instead use the tag leisure=firepit.",3739 0 425 0
+amenity,bench,node,amenity,A bench to sit down and relax a bit,459730 2237 607 1
+amenity,dog_toilet,node area,,Area designated for dogs to urinate and excrete.,3 0 1 0
+amenity,drinking_water,node,amenity,"*Drinking water* is a place where humans can obtain potable water for consumption. Typically, the water is used for only drinking. Also known as a *drinking fountain* or *bubbler*.",5483 0 29 0
+amenity,give_box,node area,,A small facility where people drop off and pick up various types of items in the sense of free sharing and reuse.,44 0 3 0
+amenity,shelter,node area,amenity,A small shelter against bad weather conditions. To additionally describe the kind of shelter use shelter_type=*.,30373 39 27120 0
+amenity,shower,node area,,Public shower or bath.,1583 0 159 0
+amenity,telephone,node,,Public telephone,19807 1 4 0
+amenity,toilets,node area,amenity,Public toilets (might require a fee),17438 0 4534 0
+amenity,water_point,node,,Place where you can get large amounts of drinking water,470 0 8 0
+amenity,watering_place,node,,Place where water is contained and animals can drink,786 3 28 0
+amenity,sanitary_dump_station,node area,,A place for depositing human waste from a toilet holding tank.,723 0 21 0
+amenity,recycling,node area,,"Recycling facilities (bottle banks, etc.). Combine with recycling_type=container for containers or recycling_type=centre for recycling centres.",71829 1 3899 0
+amenity,waste_basket,node,amenity,A single small container for depositing garbage that is easily accessible for pedestrians.,104302 6 15 0
+amenity,waste_disposal,node,,"A medium or large disposal bin, typically for bagged up household or industrial waste.",3270 0 858 0
+amenity,waste_transfer_station,node area,,"A waste transfer station is a location that accepts, consolidates and transfers waste in bulk.",21 0 62 0
+amenity,animal_boarding,node area,,"A facility where you, paying a fee, can bring your animal for a limited period of time (e.g. for holidays)",145 0 102 0
+amenity,animal_breeding,node area relation,,"A facility where animals are bred, usually to sell them",107 0 142 0
+amenity,animal_shelter,node area,,A shelter that recovers animals in trouble,125 0 408 0
+amenity,baking_oven,node,,"An oven used for baking bread and similar, for example inside a building=bakehouse.",34 0 31 0
+amenity,childcare,node area,,A place where children of different ages are looked after which is not an amenity=kindergarten or preschool.,1018 0 1330 0
+amenity,clock,node,amenity,A public visible clock,5782 1 32 0
+amenity,crematorium,node area,,A place where dead human bodies are burnt,22 0 79 0
+amenity,dive_centre,node area,,A dive center is the base location where sports divers usually start scuba diving or make dive guided trips at new locations.,31 0 25 0
+amenity,funeral_hall,node area,amenity,"A place for holding a funeral ceremony, other than a place of worship.",1 0 147 0
+amenity,grave_yard,node area,amenity,"A (smaller) place of burial, often you'll find a church nearby. Large places should be landuse=cemetery instead.",925 7 6756 0
+amenity,hunting_stand,node area,amenity,A hunting stand: an open or enclosed platform used by hunters to place themselves at an elevated height above the terrain,98770 2 66 0
+amenity,internet_cafe,node area,,A place whose principal role is providing internet services to the public.,198 0 8 0
+amenity,kitchen,node area,,A public kitchen in a facility to use by everyone or customers,10 0 2 0
+amenity,kneipp_water_cure,node area,amenity,Outdoor foot bath facility. Usually this is a pool with cold water and handrail. Popular in German speaking countries.,636 6 945 0
+amenity,lounger,node,amenity,An object for people to lie down.,255 0 0 0
+amenity,marketplace,way area,,A marketplace where goods and services are traded daily or weekly.,1216 4 614 0
+amenity,monastery,node area,,Monastery is the location of a monastery or a building in which monks and nuns live.,33 2 254 0
+amenity,photo_booth,node,,Photo Booth -- A stand to create instant photo.,299 0 6 0
+amenity,place_of_mourning,node area,,"A room or building where families and friends can come, before the funeral, and view the body of the person who has died.",0 0 0 0
+amenity,place_of_worship,node area,amenity,"A church, mosque, or temple, etc. Note that you also need religion=*, usually denomination=* and preferably name=* as well as amenity=place_of_worship. See the article for details.",12600 6 54876 0
+amenity,public_bath,node area,,"A location where the public may bathe in common, etc. japanese onsen, turkish bath, hot spring",50 0 84 0
+amenity,refugee_site,node area,,A human settlement sheltering refugees or internally displaced persons,0 0 3 0
+amenity,vending_machine,node,,"A machine selling goods -- food, tickets, newspapers, etc. Add type of goods using vending=*",66598 2 97 0
+amenity,user defined,node way area,,/All commonly used values/ according to Taginfo//,0 0 0 0
+barrier,cable_barrier,way,,A road side or median barrier made of steel wire ropes mounted on weak posts.,9 21 0 0
+barrier,city_wall,way area,,A fortification used to defend settlements in ancient to modern times.,6 3567 249 0
+barrier,ditch,way,barrier,A man made ditch or trench to prevent access to the other side.,54 5442 49 0
+barrier,fence,way,barrier,"A freestanding structure designed to restrict or prevent movement across a boundary, generally distinguished from a wall by the lightness of its construction.",1513 259220 34258 4
+barrier,guard_rail,way,,"A rail, typically metal, designed to keep vehicles within their roadway and prevent dangerous collisions",71 11227 27 0
+barrier,handrail,way,,A rail designed to be grasped by the hand so as to provide stability or support.,14 2718 7 0
+barrier,hedge,way area,hedge,"A line of closely spaced shrubs and tree species, which form a barrier or mark the boundary of an area.",86 234703 5040 4
+barrier,kerb,node way,,"A stone edging to a pavement or raised path (right side is bottom, left side is top).",3318 5517 1563 0
+barrier,retaining_wall,way,,"A structure that holds back soil or rock from a building, structure or area.",13 27285 283 15
+barrier,wall,way area,barrier,"A freestanding structure, designed to restrict or prevent movement across a boundary, typically made from solid brick, concrete or rocks, and almost always built so that it is opaque to vision.",156 126444 3440 17
+barrier,block,node,,One or more large immobile block(s) usually barring free access along a way.,13445 612 29 0
+barrier,bollard,node way,,One or more solid (usually concrete or metal) pillar(s) used to control traffic.,143463 2950 10 0
+barrier,border_control,node,,A control point at an international border between two countries.,192 0 1 0
+barrier,bump_gate,node,,A drive-through gate used in rural areas to provide a barrier to livestock that does not require the driver to exit the vehicle.,542 6 0 0
+barrier,bus_trap,node,,A short section of the roadway where there is a deep dip in the middle to prevent passage by some traffic.,52 1 0 0
+barrier,cattle_grid,node,,A hole in the road surface covered in a series of bars that allow wheeled vehicles but not animals to cross.,1579 10 1 0
+barrier,chain,node way,,A chain used to prevent motorised vehicles.,1421 716 10 0
+barrier,cycle_barrier,node,,A barrier along a path that slows or prevents access for bicycle users.,32862 60 0 0
+barrier,debris,node,,Debris blocking a road,273 49 4 0
+barrier,entrance,node,,An opening or gap in a barrier.,8777 84 32 0
+barrier,full-height_turnstile,node way,,A full-height turnstile.,588 8 0 0
+barrier,gate,node way,gate,A section in a wall or fence which can be opened to allow access.,266489 6482 40 5
+barrier,hampshire_gate,node,,A section of wire fence which can be removed temporarily.,467 14 1 0
+barrier,height_restrictor,node,,A height restrictor which prevents access of vehicles higher than a set limit.,404 12 0 0
+barrier,horse_stile,node,,A horse stile allows pedestrians and horses to cross a gap through a fence,4 0 0 0
+barrier,jersey_barrier,node way,,A barrier made of heavy prefabricated blocks.,95 585 3 0
+barrier,kissing_gate,node,,A type of gate where you have to go into an enclosure and open a gate to get through.,2078 5 0 0
+barrier,lift_gate,node,,A bar or pole pivoted (rotates upwards to open) in such a way as to allow the boom to block vehicular access through a controlled point.,64023 137 2 0
+barrier,log,node way,,A log blocking a road.,1049 170 0 0
+barrier,motorcycle_barrier,node,,A barrier along a path preventing access by motorcycles.,29 0 0 0
+barrier,rope,node way,,A flexible barrier made of rope.,66 52 1 0
+barrier,sally_port,node,,"A secure, controlled entryway to a fortification or prison.",728 21 27 0
+barrier,spikes,node,,Spikes on the ground preventing unauthorized access.,42 1 0 0
+barrier,stile,node,,"A structure which provides people a passage through or over a boundary via steps, ladders or narrow gaps.",1384 5 1 0
+barrier,sump_buster,node,,A barrier to stop cars (two tracked vehicles with less than a certain ground clearance and width between tracks).,45 0 0 0
+barrier,swing_gate,node,,A gate consisting of a bar or pole pivoted (rotates sidewards to open) in such a way as to allow the boom to block vehicular access through a controlled point.,6651 9 0 0
+barrier,toll_booth,node area,,A place where a road usage toll or fee is collected.,193 1 8 0
+barrier,turnstile,node,,"A turnstile, a passage on foot designed to allow one person at a time to pass",1552 2 0 0
+barrier,yes,node way area,barrier,"Unspecific barrier value, it is always better to use more specific one if possible",2335 1642 298 2
+boundary,aboriginal_lands,area,,A boundary representing official reservation boundaries of recognized aboriginal / indigenous / native peoples.,0 0 0 0
+boundary,administrative,area,,"An administrative boundary. Subdivisions of areas/territories/jurisdictions recognised by governments or other organisations for administrative purposes. These range from large groups of nation states right down to small administrative districts and suburbs, as indicated by the 'admin_level=*' combo tag.",7 116084 25938 116084
+boundary,hazard,area,,"A designated hazardous area, with a potential source of damage to health, life, property, or any other interest of value.",0 0 2 0
+boundary,maritime,area,,"Maritime boundaries which are not administrative boundaries: the Baseline, Contiguous Zone and EEZ (Exclusive Economic Zone).",9 119 0 0
+boundary,marker,node,,"A boundary marker, border marker, boundary stone, or border stone is a robust physical marker that identifies the start of a land boundary or the change in a boundary, especially a change in direction of a boundary. See also historic=boundary_stone",5100 1 1 0
+boundary,national_park,area,park,"Area of outstanding natural beauty, set aside for conservation and for recreation (Other languages).",0 522 36 0
+boundary,political,area,,Electoral boundaries,1 2042 687 0
+boundary,postal_code,area,,Postal code boundaries,1 15225 8179 14
+boundary,protected_area,area,park,"Protected areas, such as for national parks, marine protection areas, heritage sites, wilderness, cultural assets and similar.",194 6645 6614 0
+boundary,special_economic_zone,area,,A government-defined area in which business and trade laws are different.,0 0 0 0
+boundary,user defined,node way,,/All commonly used values according to Taginfo/,0 0 0 0
+admin_level,/(number)/,area,,"Applies to boundary=administrative and is usually in the range 1 to 10, except for several countries (Bolivia, Germany, Mozambique, Netherlands, Philippines, Poland, Turkmenistan, Venezuela) where it is in the range 1 to 11 -- see boundary.",0 0 0 0
+border_type,*,way area,,To distinguish between types of boundary where admin_level isn't enough. Used in several different ways e.g in maritime contexts.,0 0 0 0
+start_date,/(date)/,area,,Useful if the boundary is very recent (or if it will become effective in a near future).,0 0 0 0
+building,apartments,area,,"A building arranged into individual dwellings, often on separate floors. May also have retail outlets on the ground floor.",199 4 543929 0
+building,bungalow,area,,"A single-storey detached small house, Dacha.",13 1 17488 0
+building,cabin,area,,"A cabin is a small, roughly built house usually with a wood exterior and typically found in rural areas.",124 1 28761 0
+building,detached,area,,"A detached house, a free-standing residential building usually housing a single family.",357 0 257452 0
+building,dormitory,area,,"A shared building intended for college/university students (not a share room for multiple occupants as implied by the term in British English). Alternatively, use building=residential plus residential=university and loose the information that it is for students.",26 0 3394 0
+building,farm,area,,"A residential building on a farm (farmhouse). For other buildings see below building=farm_auxiliary, building=barn, ... If in your country farmhouse looks same as general residential house then you can tag as building=house as well. See also landuse=farmyard for the surrounding area",30 2 26988 0
+building,ger,area,,A permanent or seasonal round yurt or ger used as dwelling.,1 0 7 0
+building,hotel,area,,A building designed with separate rooms available for overnight accommodation. Normally used in conjunction with tourism=hotel for the hotel grounds including recreation areas and parking.,17 0 5672 0
+building,house,area,,"A dwelling unit inhabited by a single household (a family or small group sharing facilities such as a kitchen). Houses forming half of a semi-detached pair, or one of a row of terraced houses, should share at least two nodes with joined neighbours, thereby defining the party wall between the properties.",7017 9 2300385 0
+building,houseboat,area,,A boat used primarily as a home,2 0 220 0
+building,residential,area,,"A general tag for a building used primarily for residential purposes. Where additional detail is available consider using 'apartments', 'terrace', 'house', 'detached' or 'semidetached_house'.",1105 4 1051308 0
+building,semidetached_house,area,,"A residential house that shares a common wall with another on one side. Typically called a ""duplex"" in American English.",8 1 68879 0
+building,static_caravan,area,,A mobile home (semi)permanently left on a single site,194 1 968 0
+building,terrace,area,,"A single way used to define the outline of a linear row of residential dwellings, each of which normally has its own entrance, which form a terrace (""row-house"" or ""townhouse"" in North American English). Consider defining each dwelling separately using 'house'.",20 0 180094 0
+building,commercial,area,,"A building for non-specific commercial activities, not necessarily an office building. Consider tagging the surrounding area using landuse=commercial if there is such use. Use 'retail' if the building consists primarily of shops.",152 0 81016 0
+building,industrial,area,,A building for industrial purposes. Use warehouse if the purpose is known to be primarily for storage/distribution. Consider using landuse=industrial for the surrounding area and appropriate tags like man_made=works to describe the industrial activity.,165 0 103694 0
+building,kiosk,area,,A small one-room retail building.,11 0 619 0
+building,office,area,,An office building. Use office=* where applicable for the business(es) that use the building. Consider tagging the surrounding area using landuse=commercial if it applies. Prefer 'retail' if the building consists primarily of shops.,197 3 16615 0
+building,retail,area,,"A building primarily used for selling goods that are sold to the public- use shop=* to identify the sort of goods sold or an appropriate amenity=* (pub, cafe, restaurant, etc.). Consider use landuse=retail for the surrounding area.",52 0 28784 0
+building,supermarket,area,,A building constructed to house a self-service large-area store.,1 0 2016 0
+building,warehouse,area,,A building primarily intended for the storage or goods or as part of a distribution system.,42 0 10929 0
+building,cathedral,area,public_building,"A building that was built as a cathedral. Used in conjunction with amenity=place_of_worship, religion=*, denomination=* and landuse=religious for the cathedral grounds where it is in current use.",1 0 67 0
+building,chapel,area,public_building,"A building that was built as a chapel. Used in conjunction with amenity=place_of_worship, religion=*, denomination=* and landuse=religious for the chapel grounds where it is in current use.",1078 1 13074 0
+building,church,area,public_building,"A building that was built as a church. Used in conjunction with amenity=place_of_worship, religion=* , denomination=* and landuse=religious for the church grounds where it is in current use.",109 1 30664 0
+building,monastery,area,,"A building constructed as *Wikipedia-16px monastery*. Often, monasteries are consisting of several distinct buildings with specific functions. For active monasteries (communities), use amenity=monastery, for the grounds of a former monastery, have a look at historic=monastery",4 0 147 0
+building,mosque,area,public_building,"A building errected as mosque. Used in conjunction with amenity=place_of_worship, religion=*, denomination=* and landuse=religious for the grounds where it is in current use.",3 0 255 0
+building,presbytery,area,,A building where priests live and work.,0 0 0 0
+building,religious,area,public_building,Unspecific building related to religion. Prefer more specific values if possible.,1 0 195 0
+building,shrine,area,,"A building that was built as a shrine. Used in conjunction with amenity=place_of_worship, religion=*, denomination=* and landuse=religious for the grounds where it is in current use. Small buildings should consider historic=wayside_shrine.",8 0 31 0
+building,synagogue,area,public_building,"A building that was built as a synagogue. Used in conjunction with amenity=place_of_worship, religion=*, denomination=* and landuse=religious for the grounds where it is in current use.",2 0 83 0
+building,temple,area,public_building,"A building that was built as a temple. Used in conjunction with amenity=place_of_worship, religion=*, denomination=* and landuse=religious for the grounds where it is in current use.",3 0 58 0
+building,bakehouse,area,,A building that was built as a bakehouse (i.e. for baking bread). Often used in conjunction with another node amenity=baking_oven and oven=wood_fired.,5 0 93 0
+building,civic,area,public_building,"A generic tag for a building created to house some civic amenity, for example amenity=community_centre, amenity=library, amenity=toilets, leisure=sports_centre, leisure=swimming_pool, amenity=townhall etc. Use amenity=* or leisure=* etc. to provide further details. See building=public and more specific tags like building=library as well.",12 0 7724 0
+building,fire_station,area,,"A building constructed as fire station, i.e. to house fire fighting equipment and officers, regardless of current use. Add amenity=fire_station on the grounds for an active fire station.",1 0 1186 0
+building,government,area,public_building,"For government buildings in general, including municipal, provincial and divisional secretaries, government agencies and departments, town halls, (regional) parliaments and court houses.",0 0 1115 0
+building,hospital,area,medical_building,A building errected for a hospital. Use amenity=hospital for the hospital grounds.,36 1 7037 0
+building,public,area,public_building,"A building constructed as accessible to the general public (a town hall, police station, court house, etc.).",349 0 11965 0
+building,toilets,area,public_building,A toilet block.,3 0 623 0
+building,train_station,area,public_building,"A building constructed to be a train station building, including buildings that are abandoned and used nowadays for a different purpose.",6 0 2829 0
+building,transportation,area,public_building,"A building related to public transport. You will probably want to tag it with proper transport related tag as well, such as public_transport=station. Note that there is a special tag for train station buildings - building=train_station.",3 1 998 0
+building,kindergarten,area,educational,"For any generic kindergarten buildings. Buildings for specific uses (sports halls etc.) should be tagged for their purpose. If there is currently a kindergarten in the building, use amenity=kindergarten on the perimeter of the kindergarten grounds.",11 0 9744 0
+building,school,area,educational,"A building errected as school. Buildings for specific uses (sports halls etc.) should be tagged for their purpose. If there is currently a school, use amenity=school on the perimeter of the school grounds.",83 1 39590 0
+building,university,area,educational,A university building. Use amenity=university for the university as an institution.,41 0 6772 0
+building,college,area,educational,A college building. Use amenity=college on the whole college area to represent the college as an institution.,4 0 588 0
+building,barn,area,agricultural,An agricultural building used for storage and as a covered workplace.,30 0 47222 0
+building,conservatory,area,public_building,A building or room having glass or tarpaulin roofing and walls used as an indoor garden or a sunroom (winter garden).,0 0 238 0
+building,cowshed,area,,"A cowshed (cow barn, cow house) is a building for housing cows, usually found on farms.",0 0 1495 0
+building,farm_auxiliary,area,agricultural,A building on a farm that is not a dwelling (use 'farm' or 'house' for the farm house).,9 1 56662 0
+building,greenhouse,area,agricultural,A greenhouse is a glass or plastic covered building used to grow plants. Use landuse=greenhouse_horticulture for an area containing multiple greenhouses,13 0 30556 0
+building,slurry_tank,area,,A circular building built to hold a liquid mix of primarily animal excreta (also known as slurry).,19 0 2803 0
+building,stable,area,agricultural,A stable is a building where horses are kept.,24 0 9259 0
+building,sty,area,,"A sty (pigsty, pig ark, pig-shed) is a building for raising domestic pigs, usually found on farms.",1 0 755 0
+building,grandstand,area,sports_building,"The main stand, usually roofed, commanding the best view for spectators at racecourses or sports grounds.",1 0 479 0
+building,pavilion,area,sports_building,"A sports pavilion usually with changing rooms, storage areas and possibly an space for functions & events. Avoid using this term for other structures called pavilions by architects (see Wikipedia-16px Pavilion)",5 0 638 0
+building,riding_hall,area,sports_building,A building that was built as a riding hall.,1 0 608 0
+building,sports_hall,area,sports_building,A building that was built as a sports hall.,3 0 1597 0
+building,stadium,area,sports_building,"A building constructed to be a stadium building, including buildings that are abandoned and used nowadays for a different purpose.",0 0 164 0
+building,hangar,area,aeroways,"A hangar is a building used for the storage of airplanes, helicopters or space-craft. Consider adding aeroway=hangar, when appropriate.",35 0 2396 0
+building,hut,area,,"A hut is a small and crude shelter. Note that this word has two meanings - it may be synonym of building=shed, it may be a residential building of low quality.",320 0 61991 0
+building,shed,area,,"A shed is a simple, single-storey structure in a back garden or on an allotment that is used for storage, hobbies, or as a workshop.",219 3 164390 0
+building,carport,area,,"A carport is a covered structure used to offer limited protection to vehicles, primarily cars, from the elements. Unlike most structures a carport does not have four walls, and usually has one or two.",5 0 13803 0
+building,garage,area,,"A garage is a building suitable for the storage of one or possibly more motor vehicle or similar. See building=garages for larger shared buildings. For an aircraft garage, see building=hangar.",173 10 1599727 1
+building,garages,area,,A building that consists of a number of discrete storage spaces for different owners/tenants. See also building=garage.,46 4 222913 0
+building,parking,area,,Structure purpose-built for parking cars.,0 0 1862 0
+building,digester,area,,A digester is a bioreactor for the production of inflatable biogas from biomass.,1 0 1488 0
+building,service,area,,Service building usually is a small unmanned building with certain machinery (like pumps or transformers).,99 0 16109 0
+building,transformer_tower,area,,A transformer tower is a characteristic tall building comprising a distribution transformer and constructed to connect directly to a medium voltage overhead power line. Quite often the power line has since been undergrounded but the building may still serve as a substation. If the building is still in use as a substation it should additionally be tagged as power=substation + substation=minor_distribution.,832 0 12496 0
+building,water_tower,area,,A water tower,1 0 64 0
+building,military,area,military,A military building. Also use military=*.,0 0 107 0
+building,bunker,area,military,A hardened military building. Also use military=bunker.,577 0 1700 0
+building,bridge,area,,A building used as a bridge. To map a gatehouse use building=gatehouse. See also bridge=yes for highway=*. *Don't use this tag just for marking bridges (their outlines). For such purposes use man_made=bridge*.,5 2 322 0
+building,construction,area,,Used for buildings under construction. Use construction=* to hold the value for the completed building.,195 3 10172 0
+building,container,area,,"For a container used as a permanent building. *Do not map containers placed temporarily, for example used in shipping or construction.*",12 0 1118 0
+building,tent,area,,For a permanently placed tent. *Do not map tents placed temporarily.*,13 0 227 0
+building,gatehouse,area,,"An entry control point building, spanning over a highway that enters a city or compound.",0 0 28 0
+building,roof,area,,"A structure that consists of a roof with open sides, such as a rain shelter, and also gas stations",78 9 91756 0
+building,ruins,area,,"Frequently used for a house or other building that is abandoned and in poor repair. However, some believe this usage is incorrect, and the tag should only be used for buildings constructed as fake ruins (for example sham ruins in an English landscape garden). See also lifecycle tagging.",82 1 4795 0
+building,tree_house,area,,"An accommodation, often designed as a small hut, sometimes also as a room or small apartment. Built on tree posts or on a natural tree. A tree house has no contact with the ground. Access via ladders, stairs or bridgeways.",0 0 16 0
+building,yes,area,building_yes,Use this value where it is not possible to determine a more specific value.,10328 151 25067776 0
+building,user defined,node area,,"/All commonly used values according to Taginfo/, generally /building types/",0 0 0 0
+height,number,node area,,The height of the building in meters.,0 0 0 0
+building:flats,number,node area,,"The number of residential units (flats, apartments) in an apartment building (building=apartments), residential building (building=residential), house (building=house), detached house (building=detached) or similar building.",0 0 0 0
+building:levels,number,node area,,The number of visible levels (floors) in the building as used in the Simple 3D buildings scheme,0 0 0 0
+building:max_level,number,area,,maximum indoor level (floors) in the building as used in the Simple Indoor Tagging scheme,0 0 0 0
+building:min_level,number,area,,minimum indoor level (floors) in the building as used in the Simple Indoor Tagging scheme,0 0 0 0
+non_existent_levels,number,area,,list of indoor levels (floors) that do not exists in the building as used in the Simple Indoor Tagging scheme,0 0 0 0
+start_date,date,node area,,The (approximated) date when the building was finished.,0 0 0 0
+craft,agricultural_engines,node area,,A place where engines and tools for agricultural use are planned and constructed.,0 0 0 0
+craft,atelier,node area,,A place where visual artists work,0 0 0 0
+craft,bakery,node area,,A workplace for fresh bakery goods. No shop.,0 0 0 0
+craft,basket_maker,node area,,A person weaving baskets,0 0 0 0
+craft,beekeeper,node area,,The workplace of a beekeeper (apiarist).,0 0 0 0
+craft,blacksmith,node area,,"A place where a blacksmith forges tools, horseshoes, etc. from iron.",0 0 0 0
+craft,boatbuilder,node area,,A workplace where boats are planned and constructed,0 0 0 0
+craft,bookbinder,node area,,A workplace for physically assembling a book from a number of sheets of paper.,0 0 0 0
+craft,brewery,node area,,A dedicated building for the making of beer.,0 0 0 0
+craft,builder,node area,,A workplace or office of a tradesman who performs structural alterations and additions to buildings.,0 0 0 0
+craft,cabinet_maker,node area,,A person who makes fine wooden furniture,0 0 0 0
+craft,car_painter,node area,,A place specializing in painting cars.,0 0 0 0
+craft,carpenter,node area,,"A workplace or office of carpenters that work with timber to construct, install and maintain buildings, furniture, and other objects.",0 0 0 0
+craft,carpet_layer,node area,,A carpet layer is a tradesmen who specializes in laying carpets,0 0 0 0
+craft,caterer,node area,,"A workplace or office of one who prepares customized meals for takeout, or provides prepared meals or supplies to a group at social gatherings",0 0 0 0
+craft,chimney_sweeper,node area,,A workplace or office of a person who cleans chimneys for a living.,0 0 0 0
+craft,cleaning,node area,,"Workplace or office of a person who cleaning building, industrial facilities or windows.",0 0 0 0
+craft,clockmaker,node area,,"A workplace or office of a clockmaker that is building, repairing or engraving clocks of all sorts.",0 0 0 0
+craft,confectionery,node area,,"A place where the set of food items that are rich in sugar, any one or type of which is called a confection is produced.",0 0 0 0
+craft,cooper,node area,,A person or company that manufacture of containers and vessels mainly made of wood.,0 0 0 0
+craft,dental_technician,node area,,A workplace for dental technician who constructs custom-made restorative and dental appliances,0 0 0 0
+craft,distillery,node area,,"An establishment for distilling, especially for distilling alcoholic liquors.",0 0 0 0
+craft,door_construction,node area,,A workplace of someone constructing doors,0 0 0 0
+craft,dressmaker,node area,,"Dressmaker is a person who makes custom clothing for women, such as dresses, blouses, and evening gowns.",0 0 0 0
+craft,electronics_repair,node area,,"Repair shops and service centers which provides repair of computers, phones, appliance etc.",0 0 0 0
+craft,embroiderer,node area,,Needlework or textile artist,0 0 0 0
+craft,electrician,node area,,A person or company that works with electricity or electrical systems.,0 0 0 0
+craft,engraver,node area,,A workplace or office of an engraver.,0 0 0 0
+craft,floorer,node area,,A workplace or office of a floorer.,0 0 0 0
+craft,gardener,node area,,A workplace or office of a garden designer or a landscape gardener.,0 0 0 0
+craft,glaziery,node area,,"A place where residential, commercial, and artistic glass is selected, cut, installed, replaced, and removed",0 0 0 0
+craft,goldsmith,node area,,"The workplace of a person who forges things out of gold, especially jewelry.",0 0 0 0
+craft,grinding_mill,node area,,"A device that breaks solid materials into smaller pieces by grinding, crushing, or cutting. The aftermath is powdered product, not liquid extract like oil mill.",0 0 0 0
+craft,handicraft,node area,,A place where useful and decorative devices are made completely by hand or using only simple tools,0 0 0 0
+craft,hvac,node area,,"A workplace or office of an HVAC system designer (Heating, Ventilating, and Air Conditioning)",0 0 0 0
+craft,insulation,node area,,A workplace or office of a person who does thermal insulation in buildings.,0 0 0 0
+craft,interior_work,node area,,"Workplace or office of a person who build non-load-bearing interior walls, especially drywall.",0 0 0 0
+craft,jeweller,node area,,"A place where necklaces, rings, brooches, earrings and bracelets and other personal adornments are created or repaired.",0 0 0 0
+craft,joiner,node area,,"An artisan who builds things by joining pieces of wood, particularly furniture or ornamental work.",0 0 0 0
+craft,key_cutter,node area,,A place where keys can be duplicated from originals.,0 0 0 0
+craft,locksmith,node area,,A place where locks and keys are created or repaired.,0 0 0 0
+craft,metal_construction,node area,,"Workplace or office of a person who work with metal. This applies to: planning, construction, trade, repair.",0 0 0 0
+craft,mint,node area,,A place where coins and medals are hand crafted.,0 0 0 0
+craft,musical_instrument,node area,,A craftsman creating musical instruments,0 0 0 0
+craft,oil_mill,node area,,"A mill designed to crush or bruise oil-bearing seeds, such as linseed or peanuts, or other oil-rich vegetable material.",0 0 0 0
+craft,optician,node area,,"A place where lenses for the correction of a person's vision are designed, fitted and dispensed.",0 0 0 0
+craft,organ_builder,node area,,"Organ building is the profession of designing, building, restoring and maintaining pipe organs.",0 0 0 0
+craft,painter,node area,,A workplace or office of a house painter which is a tradesman responsible for the painting and decorating of buildings.,0 0 0 0
+craft,parquet_layer,node area,,A workplace or office of a parquet layer.,0 0 0 0
+craft,paver,node area,,The workshop or office of a paver,0 0 0 0
+craft,photographer,node area,,A workplace or office of a person who takes photographs using a camera.,0 0 0 0
+craft,photographic_laboratory,node area,,"A place where photos taken on a film or digital images are transformed into a more permanent form, often on paper or plastic foil.",0 0 0 0
+craft,piano_tuner,node area,,"A piano tuner or technician. A professional that tunes, regulates and makes the maintenance of pianos. Most of them repair simple problems and some restore a whole piano.",0 0 0 0
+craft,plasterer,node area,,"A workplace or office of a tradesman who works with plaster, such as forming a layer of plaster on an interior wall or plaster decorative moldings on ceilings or walls.",0 0 0 0
+craft,plumber,node area,,"A workplace or office of a skilled tradesperson who specializes in (drinking) water supply, sewage and drainage systems",0 0 0 0
+craft,pottery,node area,,"A place where earthenware, stoneware and porcelain and other ceramic ware is made by potters.",0 0 0 0
+craft,printer,node area,,"A small printing business which produces published works such as newspapers, books, magazines, etc.",0 0 0 0
+craft,printmaker,node area,,A producer of fine art prints.,0 0 0 0
+craft,rigger,node area,,"The workplace of a person who makes masts, yards, sails, and cordage for sailboats and sailing ships (or possibly a person who works on ropes, booms, lifts, hoists and the like for a stage production)",0 0 0 0
+craft,roofer,node area,,A workplace or office of a tradesman who is specialized in roof covering and sealing.,0 0 0 0
+craft,saddler,node area,,A place where saddles or accessories for cars and boats are produced or repaired.,0 0 0 0
+craft,sailmaker,node area,,"A workshop of a sailmaker who cleans, repairs and makes sails.",0 0 0 0
+craft,sawmill,node area,,A sawmill is a facility where logs are cut into timber,0 0 0 0
+craft,scaffolder,node area,,A workplace or office of a tradesman who builds temporary structure used to support people and material in the construction or repair of buildings and other large structures.,0 0 0 0
+craft,sculptor,node area,,The workplace of a sculptor.,0 0 0 0
+craft,shoemaker,node area,,"A place where shoes, boots, sandals, clogs and moccasins are created, repaired or altered to fit personal needs.",0 0 0 0
+craft,signmaker,node area,,Signmaker,0 0 0 0
+craft,stand_builder,node area,,A workplace of a company that builds stands/booths for fairs.,0 0 0 0
+craft,stonemason,node area,,A place where rough pieces of rock are shaped into accurate geometrical shapes.,0 0 0 0
+craft,stove_fitter,node area,,A workplace/office of a person / company who designs and builds stoves / tiled stoves.,0 0 0 0
+craft,sun_protection,node area,,"A place where sun protection is made, repaired, or delivered for assembly, especially awnings and shutters.",0 0 0 0
+craft,tailor,node area,,"A place where clothing is made, repaired, or altered professionally, especially suits and men's clothing.",0 0 0 0
+craft,tiler,node area,,"A workplace or office of a person who lays tiles on floors, swimming pools and such.",0 0 0 0
+craft,tinsmith,node area,,"A person who makes and repairs things made of light-coloured metal, particularly tinware.",0 0 0 0
+craft,toolmaker,node area,,"A workplace of a company that builds complex tools, machine tools, moulds, gauges,... .",0 0 0 0
+craft,turner,node area,,A workplace or office of a turner.,0 0 0 0
+craft,upholsterer,node area,,"A place where furniture, especially seats are provided with padding, springs, webbing, and fabric or leather covers.",0 0 0 0
+craft,watchmaker,node area,,A watchmaker is an artisan who makes and repairs watches. Today due to industrial production they mostly repair watches.,0 0 0 0
+craft,water_well_drilling,node area,,A company that drills water wells.,0 0 0 0
+craft,window_construction,node area,,A workplace of someone constructing windows,0 0 0 0
+craft,winery,node area,,A place where wine is produced,0 0 0 0
+emergency,ambulance_station,node area,,"A ambulance station is a structure or other area set aside for storage of ambulance vehicles, medical equipment, personal protective equipment, and other medical supplies.",0 0 0 0
+emergency,defibrillator,node,,"Defibrillator, an external and portable electronic device that diagnoses and can correct arrhythmia of the heart automatically (aka Automated External Defibrillator, AED)",0 0 0 0
+emergency,landing_site,node area,,Preselected flat area for a helicopter to land in an emergency situation,0 0 0 0
+emergency,emergency_ward_entrance,node,,to mark the entrance to an emergency ward,0 0 0 0
+emergency,dry_riser_inlet,node,,a point to which firefighters can connect a pressurized water source,0 0 0 0
+emergency,fire_alarm_box,node,,A device used for notifying a fire department of a fire.,0 0 0 0
+emergency,fire_extinguisher,node,,"A fire extinguisher is an active fire protection device used to extinguish or control small fires, often in emergency situations.",0 0 0 0
+emergency,fire_hose,node,,A high-pressure hose used to carry water or other fire retardant (such as foam) to a fire to extinguish it.,0 0 0 0
+emergency,fire_hydrant,node,,"An active fire protection measure, and a source of water provided in most urban, suburban, and rural areas with municipal water service to enable fire fighters to tap into the municipal water supply to assist in extinguishing a fire",0 0 0 0
+emergency,water_tank,node area,,A large water basin or tank for a fire department to take water,0 0 0 0
+emergency,suction_point,node,,A preferred point to pump water off a river or other waters for a fire department.,0 0 0 0
+emergency,lifeguard,node area,,A place where a lifeguard is on duty,0 0 0 0
+emergency,life_ring,node,,A floating ring to throw out to someone who is struggling in water.,0 0 0 0
+emergency,assembly_point,node area,,A designated (safe) place where people can gather or must report to during an emergency or a fire drill,0 0 0 0
+emergency,phone,node,,Emergency telephone,0 0 0 0
+emergency,siren,node,,"A loud noise maker, such as an air raid siren or a tornado siren.",0 0 0 0
+emergency,drinking_water,node,,A facility that provides drinking water in emergency situations,0 0 0 0
+geological,moraine,node way area,,Any ice formed accumulation of unconsolidated glacial debris,0 0 0 0
+geological,outcrop,node way area,,A place where the bedrock or superficial deposits previously covered under the soil have become locally exposed,0 0 0 0
+geological,palaeontological_site,node area,,A palaeontological site.,0 0 0 0
+geological,volcanic_caldera_rim,way,,Volcanic caldera rim,0 0 0 0
+geological,volcanic_vent,node area,,Volcanic vent,0 0 0 0
+geological,volcanic_lava_field,node area,,Volcanic lava field,0 0 0 0
+highway,motorway,way,traffic_motorized,"A restricted access major divided highway, normally with 2 or more running lanes plus emergency hard shoulder. Equivalent to the Freeway, Autobahn, etc..",0 66054 0 66054
+highway,trunk,way,traffic_motorized,The most important roads in a country's system that aren't motorways. (Need not necessarily be a divided highway.),0 31035 0 31035
+highway,primary,way,traffic_motorized,The next most important roads in a country's system. (Often link larger towns.),1 203072 1 203072
+highway,secondary,way,traffic_motorized,The next most important roads in a country's system. (Often link towns.),4 410182 3 410182
+highway,tertiary,way,traffic_motorized,The next most important roads in a country's system. (Often link smaller towns and villages),1 372622 6 290
+highway,unclassified,way,traffic_motorized,"The least important through roads in a country's system -- i.e. minor roads of a lower classification than tertiary, but which serve a purpose other than access to properties. (Often link villages and hamlets.)",4 365490 213 236
+highway,residential,way,traffic_motorized,"Roads which serve as an access to housing, without function of connecting settlements. Often lined with housing.",10 1769082 1895 772
+highway,motorway_link,way,traffic_motorized,The link roads (sliproads/ramps) leading to/from a motorway from/to a motorway or lower class highway. Normally with the same motorway restrictions.,0 40658 0 40658
+highway,trunk_link,way,traffic_motorized,The link roads (sliproads/ramps) leading to/from a trunk road from/to a trunk road or lower class highway.,0 19799 0 19799
+highway,primary_link,way,traffic_motorized,The link roads (sliproads/ramps) leading to/from a primary road from/to a primary road or lower class highway.,0 17731 0 17731
+highway,secondary_link,way,traffic_motorized,The link roads (sliproads/ramps) leading to/from a secondary road from/to a secondary road or lower class highway.,0 11180 0 11180
+highway,tertiary_link,way,traffic_motorized,The link roads (sliproads/ramps) leading to/from a tertiary road from/to a tertiary road or lower class highway.,0 5220 0 0
+highway,living_street,way,traffic_motorized,"For living streets, which are residential streets where pedestrians have legal priority over cars, speeds are kept very low and where children are allowed to play on the street.",20 137645 562 30
+highway,service,way area,traffic_motorized,"For access roads to, or within an industrial estate, camp site, business park, car park, alleys, etc. Can be used in conjunction with service=* to indicate the type of usage and with access=* to indicate who can use it and in what circumstances.",8 2777431 9010 1372
+highway,pedestrian,way area,traffic_foot_cycle,For roads used mainly/exclusively for pedestrians in shopping and some residential areas which may allow access by motorised vehicles only for very limited periods of the day. To create a 'square' or 'plaza' create a closed way and tag as pedestrian and also with area=yes.,4 28739 15530 47
+highway,track,way,traffic_foot_cycle,"Roads for mostly /agricultural or forestry uses/. To describe the quality of a track, see tracktype=*. Note: Although tracks are often rough with unpaved surfaces, this tag is not describing the quality of a road but its use. Consequently, if you want to tag a general use road, use one of the #Roads][general highway values instead of track.",31 2918495 935 3381
+highway,bus_guideway,way,traffic_motorized,"A busway where the vehicle guided by the way (though not a railway) and is not suitable for other traffic. Please note: this is not a normal bus lane, use access=no, psv=yes instead!",0 16 0 1
+highway,escape,way,traffic_motorized,"For runaway truck ramps, runaway truck lanes, emergency escape ramps, or truck arrester beds. It enables vehicles with braking failure to safely stop.",0 33 0 0
+highway,raceway,way,traffic_motorized,A course or track for (motor) racing,5 1476 328 0
+highway,road,way,traffic_motorized,"A road/way/street/motorway/etc. of *unknown* type. It can stand for anything ranging from a footpath to a motorway. This tag should only be used temporarily until the road/way/etc. has been properly surveyed. If you /do/ know the road type, do *not* use this value, instead use one of the more specific highway=* values.",33 1167 17 0
+highway,busway,way,traffic_motorized,A dedicated roadway for bus rapid transit systems,0 0 0 0
+highway,footway,way area,traffic_foot_cycle,"For designated footpaths- i.e., mainly/exclusively for pedestrians. This includes walking tracks and gravel paths. If bicycles are allowed as well, you can indicate this by adding a bicycle=yes tag. Should not be used for paths where the primary or intended usage is unknown. Use highway=pedestrian for pedestrianised roads in shopping or residential areas and highway=track if it is usable by agricultural or similar vehicles.",32 1504380 7043 783
+highway,bridleway,way,traffic_foot_cycle,"For horse riders. Pedestrians are usually also permitted, cyclists may be permitted depending on local rules/laws. Motor vehicles are forbidden.",1 6891 18 5
+highway,steps,way,traffic_foot_cycle,For flights of steps (stairs) on footways. Use with step_count=* to indicate the number of steps,814 217437 266 12
+highway,corridor,way,,For a hallway inside of a building.,0 2575 55 0
+highway,path,way,traffic_foot_cycle,"A non-specific path. Use highway=footway for paths mainly for walkers, highway=cycleway for one also usable by cyclists, highway=bridleway for ones available to horse riders as well as walkers and highway=track for ones which is passable by agriculture or similar vehicles.",42 1238706 1096 6098
+footway,sidewalk,way,,Sidewalk that runs typically along residential road. Use in combination with highway=footway or highway=path,0 0 0 0
+footway,crossing,way,,"Crosswalk that connects two sidewalks on the opposite side of the road. Often recognized by painted markings on the road, road sign or traffic lights. Use in combination with highway=footway or highway=path. Useful information is presence of tactile_paving=*, wheelchair=* suitability and kerb=* represented as a node on the crosswalk way.",0 0 0 0
+highway,cycleway,way,traffic_foot_cycle,"For designated cycleways. Add foot=*, though it may be avoided if default-access-restrictions do apply.",0 102272 18 2497
+cycleway,lane,way,,A lane is a route that lies within the roadway,0 0 0 0
+cycleway,opposite,way,,Used on ways with oneway=yes where it is legally permitted to cycle in both directions. Used together with oneway:bicycle=no.,0 0 0 0
+cycleway,opposite_lane,way,,"Used on ways with oneway=yes that have a cycling lane going the opposite direction of normal traffic flow (a ""contraflow"" lane). Used together with oneway:bicycle=no.",0 0 0 0
+cycleway,track,way,,"A track provides a route that is separated from traffic. In the United States, this term is often used to refer to bike lanes that are separated from lanes for cars by pavement buffers, bollards, parking lanes, and curbs. /Note/ that a cycle track may alternatively be drawn as a separate way next to the road which is tagged as highway=cycleway.",0 0 0 0
+cycleway,opposite_track,way,,Used on ways with oneway=yes that have a cycling track going the opposite direction of normal traffic flow. Used together with oneway:bicycle=no.,0 0 0 0
+cycleway,share_busway,way,,There is a bus lane that cyclists are permitted to use.,0 0 0 0
+cycleway,opposite_share_busway,way,,"Used on ways with oneway=yes that have a bus lane that cyclists are also permitted to use, and which go in the opposite direction to normal traffic flow (a ""contraflow"" bus lane). Used together with oneway:bicycle=no.",0 0 0 0
+cycleway,shared_lane,way,,"Cyclists share a lane with motor vehicles, but there are markings indicating that they should share the lane with motorists. In some places these markings are known as ""sharrows"" ('sharing arrows') and this is the tag to use for those.",0 0 0 0
+busway,lane,way,,Bus lane on both sides of the road. (See also: Parallel scheme for bus/psv lane tagging lanes:bus=* / lanes:psv=*),0 0 0 0
+highway,proposed,way,,"For planned roads, use with proposed=* and a value of the proposed highway value.",130 7392 22 43
+highway,construction,way,,For roads under construction. Use construction=* to hold the value for the completed road.,103 8217 37 23
+abutters,commercial industrial  mixed,way,,See Key:abutters for more details.,0 0 0 0
+bicycle_road,yes,way,,"A bicycle road is a road designated for bicycles. If residential streets get the status of bicycle roads, normally, by special signs, motor traffic is admitted with limited speed, often only for residents.",0 0 0 0
+destination,<place name of destination>,way,,Destination when following a linear feature,0 0 0 0
+embedded_rails,yes <type of railway>,way,,#+begin_center,0 0 0 0
+ford,yes,node way,,"The road crosses through stream or river, vehicles must enter any water.",0 0 0 0
+ice_road,yes,way,,"A highway is laid upon frozen water basin, definitely doesn't exist in summer.",0 0 0 0
+junction,roundabout,way closedway,,"This automatically implies oneway=yes, the oneway direction is defined by the sequential ordering of nodes within the Way. This applies on a way, tagged with highway=* already.",87 26558 46 13607
+lanes,<number>,way,,"The number of traffic lanes for general purpose traffic, also for buses and other specific classes of vehicle.",0 0 0 0
+lit,no,node way area,,Street lighting,7833 325866 7374 124187
+lit,yes,node way area,,Street lighting,19791 934288 21371 149390
+maxspeed,<number>,way,,"Specifies the maximum legal speed limit on a road, railway or waterway.",0 0 0 0
+motorroad,yes no,way node,,#+begin_center,0 0 0 0
+mountain_pass,yes,node,,The highest point of a mountain pass.,0 0 0 0
+mtb:scale,0-6,way,,Applies to highway=path and highway=track. A classification scheme for mtb trails (few inclination and downhill).,0 0 0 0
+mtb:scale:uphill,0-5,way,,A classification scheme for mtb trails for going uphill if there is significant inclination.,0 0 0 0
+mtb:scale:imba,0-4,way,,The IMBA Trail Difficulty Rating System shall be used for bikeparks. It is adapted to mtb trails with artificial obstacles.,0 0 0 0
+mtb:description,Text,way,,Applies to highway=path and highway=track. A key to input variable infos related to mtbiking on a way with human words,0 0 0 0
+overtaking,yes no caution backward,way,,Specifying sections of roads where overtaking is legally forbidden. Use overtaking:forward=yes/no/caution and overtaking:backward=yes/no/caution when it depends on driving direction.,0 0 0 0
+parking:condition,free ticket disc private,way,,Specifying the parking conditions (terms). See parking:condition=* for more details.,0 0 0 0
+parking:lane,parallel diagonal perpendicular no_stopping fire_lane,way,,Specifying the parking space. See parking:lane=* for more details.,0 0 0 0
+passing_places,yes,way,,A way which has frequent passing places (See also: highway=passing_place),0 0 0 0
+sac_scale,hiking mountain_hiking demanding_mountain_hiking difficult_alpine_hiking,way,,Applies to highway=path and highway=footway. A classification scheme for hiking trails.,0 0 0 0
+smoothness,excellent good intermediate horrible very_horrible impassable,way,,See Key:smoothness for more details.,0 0 0 0
+tactile_paving,yes no,node way area,,#+begin_center,0 0 0 0
+tracktype,grade1 grade2 grade3,way,,To describe the quality of the surface. See Key:tracktype for more information.,0 0 0 0
+traffic_calming,bump hump table yes etc.,node way,,See Key:traffic calming for more details.,0 0 0 0
+trail_visibility,excellent good intermediate no,way,,"Applies to highway=path, highway=footway, highway=cycleway and highway=bridleway. A classification for hiking trails visibility",0 0 0 0
+trailblazed,yes no poles,way,,Applies to highway=*. Describing trail blazing and marking. See Key:trailblazed for more information.,0 0 0 0
+trailblazed:visibility,excellent good intermediate no,way,,Applies to trailblazed=*. A classification for visibility of trailblazing. See Key:trailblazed:visibility for more information.,0 0 0 0
+turn,left slight_left through merge_to_left merge_to_right reverse,way,,The key turn can be used to specify the direction in which a way or a lane will lead.,0 0 0 0
+width,<number>,way,,The width of a feature.,0 0 0 0
+winter_road,yes,way,,"A highway functions during winter, probably can't be driven in summer.",0 0 0 0
+highway,bus_stop,node,,A small bus stop. Optionally one may also use public_transport=stop_position for the position where the vehicle stops and public_transport=platform for the place where passengers wait.,330756 757 638 13
+highway,crossing,node,,"A.k.a. crosswalk. Pedestrians can cross a street here- e.g., zebra crossing",210547 18 2 0
+highway,elevator,node way,,"An elevator or lift, used to travel vertically, providing passenger and freight access between pathways at different floor levels.",5085 522 320 3
+highway,emergency_bay,node way,,An area beside a highway where you can safely stop your car in case of breakdown or emergency.,645 40 5 0
+highway,emergency_access_point,node,,Sign number which can be used to define your current position in case of an emergency. Use with ref=/NUMBER_ON_THE_SIGN/,30372 0 1 0
+highway,give_way,node,,"A ""give way,"" or ""Yield"" sign",55156 1 0 0
+emergency,phone,node,,A calling device can be used to tell on your current position in case of an emergency. Use with ref=/NUMBER_ON_THE_SIGN/,0 0 0 0
+highway,milestone,node,,Highway location marker,9811 0 0 0
+highway,mini_roundabout,node,,"Similar to roundabouts, but at the center there is either a painted circle or a fully traversable island. In case of an untraversable center island, junction=roundabout should be used.",3137 1 0 0
+highway,motorway_junction,node,,"Indicates a junction (UK) or exit (US). ref=* should be set to the exit number or junction identifier. (Some roads -- e.g., the A14 -- also carry junction numbers, so the tag may be encountered elsewhere despite its name)",9245 0 0 0
+highway,passing_place,node,,The location of a passing space,8618 17 10 0
+highway,platform,node way area,,A platform at a bus stop or station.,3222 11461 4550 503
+highway,rest_area,node area,,"Place where drivers can leave the road to rest, but not refuel.",674 1146 678 0
+highway,speed_camera,node,,A fixed road-side or overhead speed camera.,4729 0 0 0
+highway,street_lamp,node,,"A street light, lamppost, street lamp, light standard, or lamp standard is a raised source of light on the edge of a road, which is turned on or lit at a certain time every night",412565 3 0 0
+highway,services,node area,,"A service station to get food and eat something, often found at motorways",150 336 293 0
+highway,stop,node,,A stop sign,14698 0 0 0
+highway,traffic_mirror,node,,Mirror that reflects the traffic on one road when direct view is blocked.,2353 0 0 0
+highway,traffic_signals,node,,Lights that control the traffic,112798 3 0 0
+highway,trailhead,node,,Designated place to start on a trail or route,5 0 0 0
+highway,turning_circle,node,,"A turning circle is a rounded, widened area usually, but not necessarily, at the end of a road to facilitate easier turning of a vehicle. Also known as a /cul de sac/.",172156 4 3 0
+highway,turning_loop,node,,"A widened area of a highway with a non-traversable island for turning around, often circular and at the end of a road.",4557 2 0 0
+highway,toll_gantry,node,,"A toll gantry is a gantry suspended over a way, usually a motorway, as part of a system of electronic toll collection. For a toll booth with any kind of barrier or booth see: barrier=toll_booth",19 2 0 0
+highway,User Defined,node way,,/All commonly used values/ according to Taginfo,0 0 0 0
+historic,aircraft,node area,historic_site,A decommissioned aircraft which generally remains in one place.,182 0 93 0
+historic,aqueduct,way area,historic_site,A historic structure to convey water,9 22 4 0
+historic,archaeological_site,node way area,historic_site,A place in which evidence of past activity is preserved.,7946 161 1654 0
+historic,battlefield,node area,historic_site,The site of a battle or military skirmish in the past.,138 2 31 0
+historic,bomb_crater,node area,,A bomb crater,559 3 776 0
+historic,boundary_stone,node,,A historic physical marker that identifies a boundary,21234 1 6 0
+historic,building,node area,historic_site,Unspecified historic building.,336 1 7176 0
+historic,cannon,node,,A historic/retired cannon. Usually found on forts or battlefields.,92 0 0 0
+historic,castle,node area,historic_site,"Used for various kinds of castles, palaces, fortresses, manors, stately homes, kremlins, shiros and other.",1492 25 4045 0
+historic,castle_wall,way area,historic_site,A fortification surrounding the bailey of a castle,2 66 11 0
+historic,charcoal_pile,node area,historic_site,Historic site of a charcoal pile. Often still in good condition in hilly forest areas.,33801 1 0 0
+historic,church,node area,historic_site,A church with a historical value.,55 1 457 0
+historic,city_gate,node area,historic_site,A city gate within a city wall,176 14 538 0
+historic,citywalls,way area,,A citywall is a fortification used to defend a city.,22 1704 307 0
+historic,farm,node area,historic_site,"A historical farm, kept in its original state.",21 0 287 0
+historic,fort,node area,historic_site,"A military fort, a stand-alone defensive structure which differs from a castle in that there is no permanent residence",19 3 44 0
+historic,gallows,node relation,,remains of a gallows,15 0 0 0
+historic,highwater_mark,node,,A marker for indicating past flood,46 0 0 0
+historic,locomotive,node area,,A decommissioned locomotive which generally remains in one place,151 1 18 1
+historic,manor,node area,historic_site,Historic manors/mansions having different use today,69 1 756 0
+historic,memorial,node area,historic_site,"Small memorials, usually remembering special persons, people who lost their lives in the wars, past events or missing places.",54607 37 1359 2
+historic,milestone,node,,A historic marker that shows the distance to important destinations,2906 0 1 0
+historic,monastery,node area,,Building/place that is a historically significant monastery.,74 5 258 0
+historic,monument,node area,historic_site,"A memorial object, which is especially large, built to remember, show respect to a person or group of people or to commemorate an event.",717 7 304 3
+historic,optical_telegraph,node area,,Semaphore system,21 0 7 0
+historic,pa,node area,,A New Zealand Maori Pā,0 1 0 0
+historic,pillory,node,,A pillory.,31 0 1 0
+historic,railway_car,node area,,A decommissioned railway car which generally remains in one place,12 0 13 0
+historic,ruins,node way area,historic_site,"Remains of structures that were once complete, but have fallen into partial or complete disrepair.",2685 300 2802 2
+historic,rune_stone,node,,"Stones, boulders or bedrock with historical runic inscriptions.",6 0 0 0
+historic,ship,node area,,A decommissioned ship/submarine which generally remains in one place,39 0 159 0
+historic,tank,node area,,A decommissioned tank which generally remains in one place,13 0 3 0
+historic,tomb,node area,historic_site,A structure where somebody has been buried.,1189 4 227 0
+historic,tower,node area,historic_site,This property distinguishes a tower as historic,75 0 392 0
+historic,vehicle,node area,,A decommissioned vehicle which generally remains in one place,4 0 0 0
+historic,wayside_cross,node,historic_site,"A historical cross, symbol of christian faith.",37602 2 29 0
+historic,wayside_shrine,node area,historic_site,A shrine often showing a religious depiction. Tag is used also for modern shrines.,16163 0 427 0
+historic,wreck,node area,,A nautical craft that has been sunk or destroyed.,94 0 17 0
+landuse,commercial,node area,landuse_commercial,"Predominantly commercial businesses and their offices. Commercial businesses which sell goods should be categorised as landuse=retail. Commercial businesses can sell services on site and may include private Doctor's Surgeries, and those non-government services for mental and physical health, such as a Counsellor's or Physiotherapist's practice or Veterinary. Government services and businesses should not use this tag. Commercial businesses can also include office buildings and business parks which have limited interface with the public and sell their services either on site, or externally. Commercial businesses have low amounts of public foot traffic.",49 4 42591 0
+landuse,construction,area,landuse_construction,"A site which is under active development and construction of a building or structure, including any purposeful alteration to the land or vegetation upon it. Abandoned construction projects and sites should not use this tag.",13 28 15766 26
+landuse,education,area,,An area predominately used for educational purposes/facilities.,0 0 38 0
+landuse,industrial,area,landuse_industrial,"Predominantly industrial landuses such as workshops, factories, or warehouses.",115 16 52179 0
+landuse,residential,area,landuse_residential,"Land where people reside- predominantly residential detached (single houses, grouped dwellings), or attached (apartments, flats, units) dwellings. For ""Mixed-Use"" areas where more than half of the land is residential, tag as residential.\\",42 58 374429 2
+landuse,retail,area,landuse_retail,"Predominantly retail businesses such as shops. Retail businesses sell physical goods such as food (prepared or grocery), clothing, medicine, stationary, appliances, tools, or other similar physical items. Retail businesses have high amounts of public foot traffic. Retail businesses do not exclusively provide or sell their services. For businesses which sell services see landuse=commercial.",44 4 12774 0
+landuse,allotments,area,landuse_allotments,A piece of land given over to local residents for growing vegetables and flowers.,97 5 62244 0
+landuse,farmland,area,landuse_farmland,"An area of farmland used for tillage (cereals, vegetables, oil plants, flowers).",18 99 845625 0
+landuse,farmyard,area,landuse_farmyard,"An area of land with farm buildings like farmhouse, dwellings, farmsteads, sheds, stables, barns, equipment sheds, feed bunkers, etc. plus the open space in between them and the shrubbery/trees around them.",25 22 169525 0
+landuse,flowerbed,area,,An area designated for flowers,18 2 1090 0
+landuse,forest,area,landuse_forest,Managed forest or woodland plantation (Other languages). Some use this to map an area of trees rather than the use of the land. See Forest.,1205 115 529838 0
+landuse,meadow,area,landuse_meadow,"A meadow or pasture: land primarily vegetated by grass and non-woody plants, mainly used for hay or grazing",24 85 853030 0
+landuse,orchard,area,landuse_orchard,intentional planting of trees or shrubs maintained for food production,14 5 75781 0
+landuse,vineyard,area,landuse_vineyard,A piece of land where grapes are grown.,8 4 29770 0
+landuse,basin,area,landuse_basin,An area artificially graded to hold water.\\,82 2 28719 0
+landuse,brownfield,area,landuse_brownfield,Describes land scheduled for new development where old buildings have been demolished and cleared,3 5 6218 0
+landuse,cemetery,area,landuse_cemetery,Place for burials. You can add religion=* (values listed in the place of worship page). Smaller places (e.g. with a church nearby) may use amenity=grave_yard instead.,90 3 30374 0
+landuse,+conservation+,area,,"Protected areas (deprecated) Alternate tagging of same thing: boundary=protected_area, protected_area=*",0 0 0 0
+landuse,depot,area,,"An area used as a depot for e.g. vehicles (trains, buses or trams). Consider using rather standard landuse tags like landuse=railway, landuse=commercial, landuse=industrial, with subtag like industrial=depot.",3 1 115 0
+landuse,garages,area,,"One level buildings with boxes commonly for cars, usually made of brick and metal. Usually this area belong to garage cooperative with own name, chairman, budget, rules, security, etc.",2 5 9274 0
+landuse,grass,area,landuse_grass,"An area of mown and managed grass not otherwise covered by a more specific tag. Some view this as not a landuse, see the main page landuse=grass for discussion.",12 59 474821 0
+landuse,greenfield,area,landuse_greenfield,Describes land scheduled for new development where there have been no buildings before. A greenfield is scheduled to turn into a construction site,2 1 5114 0
+landuse,greenhouse_horticulture,area,,Area used for growing plants in greenhouses,1 1 5221 0
+landuse,landfill,area,landuse_landfill,Place where waste is dumped.,39 1 3553 0
+landuse,military,area,landuse_military,For land areas owned/used by the military for whatever purpose,81 7 1639 0
+landuse,plant_nursery,area,landuse_plantnursery,intentional planting of plants maintaining for the production of new plants,8 3 8637 0
+landuse,port,area,,coastal industrial area where commercial traffic is handled. Consider using landuse=industrial + industrial=port for this type of industrial area.,0 0 11 0
+landuse,quarry,area,landuse_quarry,Surface mineral extraction,239 7 8781 0
+landuse,railway,area,landuse_railway,"Area for railway use, generally off-limits to the general public",0 8 12288 0
+landuse,recreation_ground,area,landuse_recreationground,"An open green space for general recreation, which may include pitches, nets and so on, usually municipal but possibly also private to colleges or companies",35 2 8557 0
+landuse,religious,area,landuse_religious,An area used for religious purposes,0 0 1544 0
+landuse,reservoir,area,,A Reservoir on Wikipedia. Less popular variant of natural=water + water=reservoir. See also the approved water details proposal and pointers to discussion on talk page.,32 0 8445 0
+landuse,salt_pond,area,,A place where salt (saline) water is evaporated to extract its salt.,0 0 0 0
+landuse,village_green,area,landuse_villagegreen,"An area of common land, usually grass, in the centre of a village (quintessentially English -- defined separately from 'common land' under the Commons Registration Act 1965 and the Commons Act 2006).\\",4 3 16505 0
+landuse,winter_sports,node area,,An area dedicated to winter sports (e.g. skiing),0 2 66 0
+landuse,user defined,node area,,/All commonly used values according to Taginfo/,0 0 0 0
+leisure,adult_gaming_centre,node area,,A venue with gambling machines.,950 0 188 0
+leisure,amusement_arcade,node area,,A venue with pay-to-play games.,128 0 26 0
+leisure,beach_resort,node area,,"A managed beach, including within the boundary any associated facilities. Entry may also require payment of a fee.",46 0 118 0
+leisure,bandstand,node area,,A bandstand is an open structure where musical bands can perform concerts,22 0 91 0
+leisure,bird_hide,node area,,"A place that is used to observe wildlife, especially birds.",170 0 68 0
+leisure,common,node area,leisure_public,Identify land over which the public has general rights of use for certain leisure activities.,95 3 3985 0
+leisure,dance,node area,leisure_restrictive,A dance venue or dance hall.,843 0 218 0
+leisure,disc_golf_course,node area,leisure_restrictive,A place to play disc golf,38 1 5 0
+leisure,dog_park,node area,leisure_public,"A designated area, with or without a fenced boundary, where dog-owners are permitted to exercise their pets unrestrained.",162 10 1074 0
+leisure,escape_game,node area,leisure_restrictive,"A physical adventure game in which players solve a series of puzzles using clues, hints and strategy to complete the objectives at hand.",103 0 6 0
+leisure,firepit,node area,amenity,"A fire ring or fire pit, often at a campsite or picnic site",1816 0 201 0
+leisure,fishing,node area,,A public or private place for fishing,311 30 392 0
+leisure,fitness_centre,node area,,"Fitness centre, health club or gym with exercise machines, fitness classes or both, for exercise.",2882 0 715 0
+leisure,fitness_station,node area,leisure_public,An outdoor facility where people can practise typical fitness exercises,1984 16 381 0
+leisure,garden,node area,,A place where flowers and other plants are grown in a decorative and structured manner or for scientific purposes.,739 5 42952 0
+leisure,hackerspace,node area,,"A place where people with common interests (science, technology, ...) meet.",144 0 22 0
+leisure,horse_riding,node area,,"A facility where people practise horse riding, usually in their spare time, e.g. a riding centre. For a riding arena use tag:leisure=pitch + tag:sport=equestrian.",567 1 2823 0
+leisure,ice_rink,node area,,A place where you can skate and play bandy or ice hockey.,25 0 132 0
+leisure,marina,node area,leisure_restrictive,A facility for mooring leisure yachts and motor boats.,1819 3 822 0
+leisure,miniature_golf,node area,leisure_restrictive,A place or area where you can play miniature golf.,378 2 1333 0
+leisure,nature_reserve,area,leisure_public,"A protected area of importance for wildlife, flora, fauna or features of geological or other special interest.",489 3139 6948 0
+leisure,park,area,leisure_public,"A park, usually urban (municipal).",422 12 41298 0
+leisure,picnic_table,node,leisure_public,A table with benches for food and rest,19531 0 65 0
+leisure,pitch,node area,leisure_sport,"An area designed for practising a particular sport, normally designated with appropriate markings.",8786 17 147573 0
+leisure,playground,node area,leisure_public,A playground: an area designed for children to play.,30914 32 72737 0
+leisure,slipway,node,leisure_public,A slipway: a ramp for launching a boat into water,2287 421 67 0
+leisure,sports_centre,node area,leisure_sport,A sports centre is a distinct facility where sports take place within an enclosed area.,6170 8 27976 0
+leisure,stadium,node area,leisure_sport,A major sports facility with substantial tiered seating.,201 1 3040 0
+leisure,summer_camp,node way area,,A place for supervised camps for children or teenagers conducted during the summer months,0 0 13 0
+leisure,swimming_area,area,leisure_sport,An official open-space natural place where you can swim,332 5 341 0
+leisure,swimming_pool,node area,leisure_sport,A swimming pool (water area only),1353 1 31608 0
+leisure,track,way area,leisure_sport,"A track for running, cycling and other non-motorised racing such as horses, greyhounds.",147 2026 7653 16
+leisure,water_park,node area,leisure_sport,"An amusement park with features like water slides, recreational pools (e.g. wave pools) or lazy rivers.",581 4 3030 0
+man_made,adit,node,,A type of entrance to an underground mine which is horizontal or nearly horizontal.,2825 132 17 0
+man_made,beacon,node area,,A structure for signalling on land and sea,423 0 15 0
+man_made,breakwater,way area,,A man-made structure designed to protect a shore or harbour from the sea and waves.,0 1159 202 0
+man_made,bridge,area,,"The outline of a bridge, grouping together all features for that bridge.",5 77 19336 22
+man_made,bunker_silo,node area,,An open-sided structure without a roof that can be used with vehicles to fill and empty them,31 31 15983 0
+man_made,carpet_hanger,node,,A construction to hang carpets for cleaning with the help of carpet beaters.,5 0 0 0
+man_made,chimney,node area,,"A tall distinctive vertical conduit for venting hot gases or smoke, normally found near power stations or large factories",3210 0 1562 0
+man_made,communications_tower,node area,,A huge tower for transmitting radio applications,62 0 94 0
+man_made,crane,node area,,"A stationary, permanent crane.",763 96 264 0
+man_made,cross,node,,"Cross, especially one with little historical value",831 0 1 0
+man_made,cutline,way,,A straight line cut in a forest.,0 7480 86 8
+man_made,clearcut,area relation,,An area where all trees have been uniformly cut down.,0 6 895 0
+man_made,dovecote,node area,,A place where doves are farmed or stored.,20 0 22 0
+man_made,dyke,way,,An embankment built to restrict the flow of water or other liquids,3 4542 251 70
+man_made,embankment,way,,An artificial steep slope,4 20204 2048 100
+man_made,flagpole,node,,A long pole built to hold a flag,11389 2 3 0
+man_made,gasometer,node area,,A large container in which natural gas or town gas is stored near atmospheric pressure at ambient temperatures,68 0 1018 0
+man_made,goods_conveyor,way,,A conveyor system for transporting materials,0 999 13 0
+man_made,groyne,way area,,A rigid structure built from a shoreline or riverbank that interrupts water flow and limits the movement of sediment,1 10258 945 0
+man_made,guard_stone,node,,"A guard stone: a stone built onto or into the corner of a building or wall to prevent carriages from damaging the structure, often found on either side of an entrance to a laneway, or alongside a wall to protect it.",0 0 0 0
+man_made,kiln,node area,,"A thermally insulated chamber used for processes such as burning, hardening, drying, or smelting",17 0 20 0
+man_made,lighthouse,node area,,Tower that emits light to serve as a navigational aid at sea or on inland waterway,207 0 74 0
+man_made,mast,node,,"A mast is a vertical structure built to hold, for example, antennas.",15675 1 128 0
+man_made,mineshaft,node area,,A mineshaft: vertical tunnel into a mine where minerals are extracted.,2802 6 244 1
+man_made,monitoring_station,node way area relation,,A station that monitors something.,3222 13 434 0
+man_made,obelisk,node area,,"Tall, narrow, four-sided, tapered monument which usually ends in a pyramid-like shape at the top.",91 0 19 0
+man_made,observatory,node area,,Observatory: a location used for observing terrestrial or celestial events,74 0 145 0
+man_made,offshore_platform,node area,,"Offshore platform, oil platform or offshore drilling rig",14 0 3 0
+man_made,petroleum_well,node,,"A hole bored in the earth, designed to bring petroleum oil or gas to the surface",139 0 32 0
+man_made,pier,way area,,"A pier is a raised walkway over water, supported by widely spread piles or pillars.",308 29129 3329 3
+man_made,pipeline,way,,"A major pipeline carrying gas, water, oil, etc.",210 10748 113 0
+man_made,pump,node,,A device in charge of moving or raising the level of liquids.,71 0 26 0
+man_made,pumping_station,node area,,Pumping station: a facility including pumps and equipment for pumping fluids from one place to another,464 0 1019 0
+man_made,reservoir_covered,node area,,A covered reservoir is a large man-made tank for holding fresh water,2460 0 3694 0
+man_made,silo,node area,,"A storage container for bulk material, often grains such as corn or wheat",839 6 18530 0
+man_made,snow_fence,way,,A solid fence-like structure built across steep slopes to reduce risk and severity of (snow) avalanches,0 10 0 0
+man_made,snow_net,node way,,A netting fence built across steep slopes to reduce risk and severity of (snow) avalanches,0 0 0 0
+man_made,storage_tank,node area,,A container that holds liquids or compressed gases,670 0 24836 0
+man_made,street_cabinet,node area,,A cabinet located in the street and hosting technical equipment to operate facilities such as electricity or street lights.,27640 7 1394 0
+man_made,stupa,node area,,A Buddhist dome-shaped structure with a spire on top,0 0 0 0
+man_made,surveillance,node,,A surveillance camera or other type of surveillance equipment.,24399 23 278 3
+man_made,survey_point,node,,"A triangulation pillar, geodetic vertex, or other piece of fixed equipment used by topographers.",3623 0 0 0
+man_made,tailings_pond,area,,A body of liquid or slurry used to store byproducts of mining operations.,0 0 0 0
+man_made,telescope,node area,,Telescope: an instrument that aids in the observation of remote objects by collecting light or radio waves,145 0 62 0
+man_made,tower,node area,,A tower is a free-standing structure which is higher than it is wide.,11463 3 9620 0
+man_made,wastewater_plant,node area,,A wastewater plant is a facility used to treat wastewater.,618 7 9277 0
+man_made,watermill,node area,,A mill driven by water power.,874 0 1019 0
+man_made,water_tower,node area,,Structure with a water tank at an altitude to increase pressure in water network,534 0 1469 0
+man_made,water_well,node area,,"A structural facility to access ground water, created by digging or drilling.",9956 3 826 0
+man_made,water_tap,node,amenity,Publicly usable water tap,1420 0 3 0
+man_made,water_works,node area,,A place where drinking water is found and applied to the local waterpipes network.,1605 0 3566 0
+man_made,wildlife_crossing,way area,,Structure that allow animals to cross human barriers safely.,1 156 94 1
+man_made,windmill,node area,,"A traditional windmill, historically used to mill grain with wind power.",543 0 779 0
+man_made,works,node area,,A factory or industrial production plant,3502 5 15017 0
+military,airfield,node area,military,A place where military planes take off and land.,3 2 40 0
+military,bunker,node area,military,A building reinforced to withstand attack,3715 17 4275 0
+military,barracks,node area,military,Buildings where military personnel live and sleep,17 2 857 0
+military,checkpoint,node,military,Place where civilian visitors and vehicles will be checked by a military authority.,59 0 5 0
+military,danger_area,node area,military,A danger area is a restricted area posing a threat to life or property.,2 2 112 0
+military,nuclear_explosion_site,node area,military,Nuclear weapons test site,0 0 0 0
+military,obstacle_course,way area,military,A military obstacle course: a series of challenging physical obstructions an individual or team must navigate usually while being timed,2 3 11 0
+military,office,node area,military,"Military offices, e.g. general staff office, military recruitment office etc",7 0 24 0
+military,range,node area,military,"Where military personnel practice with their weapons (firing, bombing, artillery, ...)",53 2 225 0
+military,training_area,area,military,A military training area/proving ground,12 4 82 1
+military,trench,node way,,"A military trench: an excavation in the ground that is generally deeper than it is wide, dug into the ground as a barrier for military purposes (e.g. trench warfare)",1 22 0 0
+natural,wood,area,natural_wood,Tree-covered area (a 'forest' or 'wood'),293 41 181625 0
+natural,tree_row,way,natural_wood,A line of trees,31 181487 686 20
+natural,tree,node,natural_wood,A single tree,1987107 7 13 0
+natural,scrub,area,natural_scrub,"Uncultivated land covered with shrubs, bushes or stunted trees.",51 120 575708 0
+natural,heath,area,natural_heath,"A dwarf-shrub habitat, characterised by open, low growing woody vegetation, often dominated by plants of the Ericaceae.",9 34 18376 0
+natural,moor,node area,,"Don't use, see wikipage",0 0 8 0
+natural,grassland,area,natural_grassland,Areas where the vegetation is dominated by grasses (Poaceae) and other herbaceous (non-woody) plants.,10 29 132148 0
+natural,fell,node area,,"Habitat above tree line covered with grass, dwarf shrubs and mosses.",6 0 981 0
+natural,bare_rock,area relation,,"An area with sparse or no vegetation, so that the bedrock becomes visible",21 5 26350 0
+natural,scree,area,,Unconsolidated angular stones formed by rockfall and weathering from adjacent rockfaces,16 1 4067 0
+natural,shingle,area,,An accumulation of rounded rock fragments on a beach or riverbed,0 0 958 0
+natural,sand,area,natural_sand,An area covered by sand with no or very little vegetation,24 3 20733 0
+natural,mud,area,,Area covered with mud: water saturated fine grained soil without significant plant growth.,1 0 831 0
+natural,water,area,natural_water,"Any inland body of water, from natural such as a lake or pond to artificial like a moat or canal",202 45 336469 0
+natural,wetland,area,natural_wetland,A natural area subject to inundation or with waterlogged ground,83 36 56319 0
+natural,glacier,node area,,A permanent body of ice formed naturally from snow that is moving under its own weight.,0 0 16 0
+natural,bay,node way area,,Named area of water mostly surrounded by land but with level connection to the ocean or a lake.,100 1 90 0
+natural,strait,node way area,,A narrow area of water surrounded by land on two sides and by water on two other sides.,11 7 3 0
+natural,cape,node,,A piece of elevated land sticking out into the sea or large lake.,55 0 0 0
+natural,beach,area,natural_beach,"landform along a body of water which consists of sand, shingle or other loose material",264 1 4667 0
+natural,coastline,way area,,The mean high water (springs) line between the sea and land (with the water on the right side of the way),0 0 0 0
+natural,reef,node way area,,"A feature (rock, sandbar, coral, etc) lying beneath the surface of the water.",18 0 20 0
+natural,spring,node,natural_spring,A place where ground water flows naturally from the ground,15406 3 116 0
+natural,hot_spring,node area,,A spring of geothermally heated groundwater,5 0 1 0
+natural,geyser,node,,A spring characterized by intermittent discharge of water ejected turbulently and accompanied by steam,2 0 0 0
+natural,blowhole,node area,,An opening to a sea cave which has grown landwards resulting in blasts of water from the opening due to the wave action.,0 0 0 0
+natural,peak,node,,The top (summit) of a hill or mountain.,31577 1 3 0
+natural,volcano,node,,An opening exposed on the earth's surface where volcanic material is emitted.,30 0 0 0
+natural,valley,node way,,A natural depression flanked by ridges or ranges of mountains or hills,38 785 22 0
+natural,peninsula,node area,,"A piece of land projecting into water from a larger land mass, nearly surrounded by water",4 15 17 0
+natural,isthmus,node area,,"A narrow strip of land, bordered by water on both sides and connecting two larger land masses",0 0 0 0
+natural,ridge,way,,A mountain landform with a continuous elevated crest or linear hill,1 541 9 0
+natural,arete,way,,"A thin, almost knife-like, ridge of rock which is typically formed when two glaciers erode parallel U-shaped valleys",3 36 1 0
+natural,cliff,node way,,"A vertical or almost vertical natural drop in terrain, usually with a bare rock surface. The bottom of the cliff is on the right side of the way.",618 43308 1198 0
+natural,saddle,node,,The lowest point along a ridge or between two mountain tops,504 0 0 0
+natural,dune,node way area,,"A hill of sand formed by wind, covered with no or very little vegetation",0 0 69 0
+natural,rock,node area,,A notable rock or group of rocks attached to the underlying bedrock,1695 3 459 0
+natural,stone,node area,,"A single notable freestanding rock, which may differ from the composition of the terrain it lies in.",2479 10 137 0
+natural,sinkhole,node area,,A natural depression or hole in the surface topography.,388 2 223 0
+natural,cave_entrance,node area,,An entrance to a cave: a natural underground space large enough for a human to enter,1991 0 8 0
+office,accountant,node area,,An office for an accountant.,625 0 111 0
+office,advertising_agency,node area,,"A service-based business dedicated to creating, planning, and handling advertising.",1215 0 158 0
+office,architect,node area,,An office for an architect or group of architects.,1215 0 211 0
+office,association,node area,,"An office of a non-profit organisation, society, e.g. student, sport, consumer, automobile, bike association, etc.",2216 0 488 0
+office,charity,node area,,An office of a charitable organization,71 0 21 0
+office,company,node area,,An office of a private company,18171 2 4669 0
+office,consulting,node area,,"An office for a consulting firm, providing expert professional advice to other companies or organisations.",385 0 37 0
+office,courier,node area,,A courier company,2 0 0 0
+office,coworking,node area,,An office where people can go to work (might require a fee)- not limited to a single employer,185 0 19 0
+office,diplomatic,node area,,NA,341 0 174 0
+office,educational_institution,node area,,An office for an educational institution.,1272 0 288 0
+office,employment_agency,node area,,An office for an employment service.,807 0 378 0
+office,energy_supplier,node area,,An office for a energy supplier.,198 0 76 0
+office,engineer,node area,,An office for an engineer or group of engineers.,137 0 24 0
+office,estate_agent,node area,,A place where you can rent or buy a house.,2649 5 220 0
+office,financial,node area,,An office of a company in the financial sector,171 0 29 0
+office,financial_advisor,node area,,A professional who offers financial planning and sells financial services to clients.,60 0 5 0
+office,forestry,node area,,A forestry office,83 0 151 0
+office,foundation,node area,,An office of a foundation,146 0 26 0
+office,government,node area,,"An office of a (supra)national, regional or local government agency or department",3199 2 2912 0
+office,graphic_design,node area,,An office of a graphic designer,19 0 3 0
+office,guide,node area,,"An office for tour guides, mountain guides, dive guides, etc.",78 0 9 0
+office,harbour_master,node area,,The Harbourmaster's office,16 0 6 0
+office,insurance,node area,,An office at which you can take out insurance policies.,6418 0 762 0
+office,it,node area,,An office for an IT specialist.,2338 0 501 0
+office,lawyer,node area,,An office for a lawyer.,3722 0 265 0
+office,logistics,node area,,An office for a forwarder / hauler.,332 0 205 0
+office,moving_company,node area,,An office which offers a relocation service.,140 0 90 0
+office,newspaper,node area,,An office of a newspaper,596 0 92 0
+office,ngo,node area,,"An office for a non-profit, non-governmental organisation (NGO).",1010 0 191 0
+office,notary,node area,,An office for a notary public (common law),253 0 32 0
+office,political_party,node area,,An office of a political party,675 0 50 0
+office,property_management,node area,,"Office of a company, which manages a real estate property.",108 0 9 0
+office,quango,node area,,An office of a quasi-autonomous non-governmental organisation.,22 0 15 0
+office,religion,node area,,office of a community of faith,858 0 566 0
+office,research,node area,,An office for research and development,469 0 398 0
+office,surveyor,node area,,"An office of a person doing technical surveys, such as land surveys or risk and damage evaluations of properties and equipment.",39 0 8 0
+office,tax_advisor,node area,,An office for a financial expert specially trained in tax law,1465 0 140 0
+office,telecommunication,node area,,An office for a telecommunication company,260 0 67 0
+office,visa,node area,,An office of an organisation or business which offers visa assistance,3 0 0 0
+office,water_utility,node area,,The office for a water utility company or water board.,28 0 30 0
+office,yes,node area,,Generic tag for unspecified office type.,2249 0 736 0
+place,country,node,,A nation state or other high-level national political/administrative area.,1 0 0 0
+place,state,node area,,A large sub-national political/administrative area.,16 4 1 4
+place,region,node area relation,,Used both as a broad tag for geographic or historical areas with no clear boundary and for distinct administration areas (with specific boundaries) in some countries.,14 146 69 0
+place,province,node area relation,,A province,0 0 0 0
+place,district,node,,"A district - a type of administrative division that, in some countries, is managed by local government.",0 0 0 0
+place,county,node,,A county - a geographical region of a country.,160 17 2 17
+place,municipality,node,,A municipality - single urban administrative division having corporate status.,272 27 24 27
+place,city,node area relation,,The largest urban settlement or settlements within the territory.,82 39 19 39
+place,borough,node area,,A part in larger city grouped into administrative unit.,21 21 21 21
+place,suburb,node area,,A part of a town or city with a well-known name and often a distinct identity.,8118 382 774 376
+place,quarter,node area,,"A quarter is a named, geographically localised place within a suburb of a larger city or within a town which is bigger than a neighbourhood",313 0 59 0
+place,neighbourhood,node area,,"A neighbourhood is a smaller named, geographically localised place within a suburb of a larger city or within a town or village",3536 14 547 5
+place,city_block,node area,,"A named city block, usually surrounded by streets.",8 0 167 0
+place,plot,node area relation,,A named plot is a tract or parcel of land owned or meant to be owned by some owner.,15 0 773 0
+place,town,node area relation,,"An important urban centre, between a village and a city in size.",2426 32 55 32
+place,village,node area relation,,"A smaller distinct settlement, smaller than a town with few facilities available with people traveling to nearby towns to access these.",37578 37 1223 28
+place,hamlet,node area,,"A smaller rural community, typically with fewer than 100-200 inhabitants, and little infrastructure.",44210 155 2792 2
+place,isolated_dwelling,node area relation,,The smallest kind of settlement (1-2 households).,12958 4 2219 1
+place,farm,node area,,An individually named farm.,3199 1 1573 0
+place,allotments,node area,,"A separate settlement, which is located outside an officially inhabited locality and has its own addressing",10 0 24 0
+place,continent,node,,"One of the seven continents: Africa, Antarctica, Asia, Australia, Europe, North America, South America",0 0 0 0
+place,archipelago,relation,,A named group or chain of closely related islands and islets.,0 0 3 0
+place,island,node area,,Any piece of land that is completely surrounded by water and isolated from other significant landmasses.,25 0 479 0
+place,islet,node area,,A very small island.,34 2 2931 0
+place,square,node area,,"A town or village square: a paved open public space, generally of architectural significance, which is surrounded by buildings in a built-up area such as a city, town or village.",393 8 2646 0
+place,locality,node area,,A named place that has no population.,48619 96 1752 8
+place,sea,node area,,A part of an ocean.,1 0 1 0
+place,ocean,node,,The world's five main major oceanic divisions.,0 0 0 0
+power,cable,way,,"An insulated cable carrying electrical power, such as transmission or distribution cables located underground and undersea cables",3 4509 6 1
+power,catenary_mast,node,,A pole supporting the overhead wires used to supply electricity to vehicles equipped with a pantograph such as trams and trains,10740 0 0 0
+power,compensator,node,,A static power device used to ensure power quality and electrical network resilience.,33 0 12 0
+power,converter,node area,,"A device to convert power between alternating and direct current electrical power: often, but not only, over high voltage networks",36 0 119 0
+power,generator,node area,,"A device which converts one form of energy to another, for example, an electrical generator.",63768 8 52700 0
+power,heliostat,node,,A mirror of a heliostat device,2159 0 7 0
+power,insulator,node way,,An electrical insulator which connects a power line to a support structure and prevents grounding.,581 34 0 0
+power,line,way,,"High-voltage power lines used for power transmission, usually supported by towers or pylons",0 29102 4 0
+line,busbar,way,,"Identifies a power line as a busbar, the central connection in a substation",0 0 0 0
+line,bay,way,,A power line within a substation which connects a circuit to a busbar,0 0 0 0
+power,minor_line,way,,"Minor power lines forming the distribution grid, usually carried by poles.",6 60925 0 0
+power,plant,area relation,,"An industrial facility where power (electricity, useful heat, biogas) is produced by individual power generator units.",13 2 2051 0
+power,pole,node,,"A single pole supporting power lines, often a wood, steel or concrete mast designed to carry minor power lines.",712062 5 3 0
+power,portal,node way,,"A supporting structure for power lines, composed of vertical legs with cables between them attached to a horizontal crossarm",6688 389 2 0
+power,substation,node area,,"A facility which controls the flow of electricity in a power network with transformers, switchgear or compensators.",19049 5 45460 2
+power,switch,node,,A device which allows electrical network operators to power up & down lines and transformers in substations or along the power grid.,3364 1 13 0
+power,switchgear,area,,"A switchgear, which comprises one or more busbar assemblies and a number of bays each connecting a circuit to the busbar assembly.",85 0 274 0
+power,terminal,node,,"A point of connection where an overhead power line ends on a building or wall, for example, when connecting it to an indoor substation",9543 0 22 0
+power,tower,node,,A tower or pylon carrying high voltage electricity cables. Often constructed from steel latticework but tubular or solid pylons are also used.,213755 2 25 0
+power,transformer,node,,A device for stepping up or down electric voltage. Large power transformers are typically located inside substations,7467 0 1095 0
+public_transport,stop_position,node,,The position on the street or rails where a public transport vehicle stops.,228112 59 10 8
+public_transport,platform,node way area,,The place where passengers are waiting for the public transport vehicles.,232990 50238 23572 7627
+public_transport,station,node area,,A station is an area designed to access public transport.,7574 1 767 0
+public_transport,stop_area,relation,,"A relation that contains all elements of a train, subway, monorail, tram, bus, trolleybus, aerialway, or ferry stop.",34 15 20 0
+railway,abandoned,way,,"The course of a former railway which has been abandoned and *the track removed*. The course is still recognized through embankments, cuttings, tree rows, bridges, tunnels, remaining track ties, building shapes and rolling or straight ways. For demolished rails that are no longer identifiable, e.g. that have been built over, use railway=razed",107 42831 7 42831
+railway,construction,way,,Railway under construction.,61 1104 4 1104
+railway,disused,way,,A section of railway which is no longer used but where the track and infrastructure remains in place. The track is likely overgrown.,20 20965 21 20965
+railway,funicular,way,,"Cable driven inclined railways on a steep slope, with a pair of cars connected by one cable",2 145 0 145
+railway,light_rail,way,,"A higher-standard tram system, normally in its own right-of-way. Often it connects towns and thus reaches a considerable length (tens of kilometers).",0 8396 0 8396
+railway,miniature,way,,"Miniature railways are narrower than narrow gauge and carry passengers, frequently at an exact scale of ""standard-sized"" rail (for example ""1/4 scale""). They can often be found in parks.",1 955 4 955
+railway,monorail,way,,A railway with only a single rail. A monorail can run above the rail like in Las Vegas and Disneyland or can suspend below the rail like the Wuppertal Schwebebahn (Germany).,0 293 2 293
+railway,narrow_gauge,way,,Narrow-gauge passenger or freight trains. Narrow gauge railways can have mainline railway service like the Rhaetian Railway in Switzerland or can be a small light industrial railway. Use gauge=* to specify the actual width of rails in mm.,0 4928 2 4928
+railway,preserved,way,,"A railway running historic trains, usually a tourist attraction. Using railway:preserved=yes is an alternate method to mark railway as preserved.",0 1266 0 1266
+railway,rail,way,,Full sized passenger or freight trains in the standard gauge for the country or state.,0 203331 1 203331
+railway,subway,way,,A city passenger rail service running mostly grade separated (see Wikipedia:rapid transit). Often a significant portion of the line or its system/network is underground.,2 4572 0 4572
+railway,tram,way,,"One or two carriage rail vehicles, usually sharing motor road, sometimes called ""street running"" (Other languages).",0 21089 9 21089
+bridge,yes,way,,"If the railway goes over a street, waterway or other railway on an elevated structure.",55 318478 1320 96355
+cutting,yes,way,,"A section where the railway is significantly lower than ground level, but not underground.",113 10388 54 2906
+electrified,contact_line,way,,contact_line: a power line over the train head\\,0 0 0 0
+embankment,yes,way,,A section where the railway is raised significantly higher than ground level,37 28709 364 12981
+embedded_rails,yes/<type of railway>,way,,Specifies that a highway on which non-railway traffic is also allowed has railway tracks embedded in it but the rails are mapped as separate ways.,0 0 0 0
+frequency,number [Hz],way,,The frequency with which a line is electrified. Use 0 for DC. Also see the voltage tag.,0 0 0 0
+railway:track_ref,/number/,way,,Track number,0 0 0 0
+service,crossover,way,,Relatively short lengths of track which switch traffic from one parallel line to another,4 9852 1 9847
+service,siding,way,,"Relatively short lengths of track, running parallel to (and connected to) a main route",0 22972 10 22930
+service,spur,way,,"Relatively short lengths of track, built to give one company or entity access to a main or branch line.",0 29472 3 29384
+service,yard,way,,Tracks within railway company operated marshaling or maintenance yards.,3 67574 13 67246
+tunnel,yes,way,,If the railway goes below ground. Most subways have this tag,133 149763 2449 9731
+tracks,number,way,,"Number of parallel tracks in close proximity *when mapped as one single way representing all tracks*. If not given means /unknown/ and defaults to 1. In many parts of the world the tracks are being drawn out separately so that there is more detail, in which case this tag isn't used.",0 0 0 0
+usage,main,way,,main line: heavy traffic\\,0 0 0 0
+voltage,number,way,,The voltage with which a line is electrified. Also see the frequency tag.,0 0 0 0
+railway,halt,node,,A small station without switches,4081 2 12 2
+public_transport,stop_position,node,,The position on the railway track where the train (its center) stops at a platform. This is useful for routing on long platforms where also short trains stop and on long platforms where multiple trains stop behind each other. See also public_transport=stop_area.,228112 59 10 8
+public_transport,platform,node way area,,"This is parallel to the rail line for showing where the actual platforms are. It is also to know where you can change platform and enter the station, so use footpaths to connect them. This is really useful for routing too. Use only if the platform is served by public transport.",232990 50238 23572 7627
+railway,platform,way area,,"This is parallel to the rail line for showing where the actual platforms are. It is also to know where you can change platform and enter the station, so use footpaths to connect them. This is really useful for routing too. Use in addition to public_transport=platform.",183 8068 13703 8068
+public_transport,station,node area,,Railway *passenger only station*.,7574 1 767 0
+railway,station,node area,,Railway *passenger and/or cargo station*. Use in addition to public_transport=station.,4401 1 20 1
+railway,subway_entrance,node,,"The entrance to a subway station, usually going from surface to underground.",3070 8 13 8
+railway,tram_stop,node,,A tram stop is a place where a passenger can embark / disembark a tram.,9494 15 31 15
+railway,buffer_stop,node,,stops the train at the end of a track. see Buffer_stop.,19395 6 0 6
+railway,derail,node,,a device used to prevent fouling of a rail track by unauthorized movements of trains or unattended rolling stock. See Derail_(railroad).,1436 0 0 0
+railway,crossing,node,,A point where pedestrians may cross.,29460 5 1 5
+railway,level_crossing,node,,A point where rails and roads cross.,58298 9 0 9
+landuse,railway,area,,Ground used around railways and railway-stations.,0 8 12288 0
+railway,signal,node,,Any kind of railway signal.,97167 2 1 2
+railway,switch,node,,Full connections between railways (aka 'points').,80838 1 0 1
+railway,railway_crossing,node,,Crossing rails with no interconnection.,2790 0 0 0
+railway,turntable,node area,,These are used for changing the direction that part of a train is pointing in.,130 263 44 263
+railway,roundhouse,area,,A semicircular building with many stalls for servicing engines.,0 0 149 0
+railway,traverser,node area,,These are used for changing trains between railways. Also known as transfer table.,0 54 16 54
+railway,wash,node area,,A Railroad car wash,8 7 31 7
+railway,user defined,node way,,/All commonly used values according to Taginfo/,0 0 0 0
+route,bicycle,relation,route_bicycle,"Cycle routes or bicycles route are named, numbered or otherwise signed. May go along roads, trails or dedicated cycle paths",1 52808 0 145
+route,bus,relation,,The route a public bus service takes. See Buses.,10 277703 0 1
+route,canoe,relation,,Signed route for canoeing through a waterway.,0 305 0 11
+route,detour,relation,,Route for fixed detour routes. Examples are Bedarfsumleitung in Germany and uitwijkroute in the Netherlands,0 8249 0 1
+route,ferry,way relation,,"The route a ferry takes from terminal to terminal Please make sure to add at least one node per tile (zoom level 12), better at least one every few km, so offline editors catch it with bbox requests.",0 1357 0 4
+route,foot,relation,route_foot,"Walking Route - is used for routes which are walkable without any limitations regarding fitness, equipment or weather conditions.",1 3799 0 0
+route,hiking,relation,route_hiking,Hiking explains how to tag hiking routes.,2 56917 0 0
+route,horse,relation,,Riding routes,0 836 0 0
+route,inline_skates,relation,,Inline has more information on the subject.,0 241 0 0
+route,light_rail,relation,,Route of a light rail line.,0 2380 0 0
+route,mtb,relation,route_bicycle,Mountain biking explains how to tag mtb routes.,0 2734 0 1
+route,piste,way relation,,"Route of a piste (e.g., snowshoe or XC-Ski trails) in a winter sport area.",1 902 14 0
+route,railway,relation,,"A sequence of railway ways, often named (e.g., /Channel Tunnel/). See Railways.",1 2999 0 287
+route,road,relation,,Can be used to map various road routes/long roads.,0 51339 0 124
+route,running,relation,route_foot,For running (jogging) routes.,0 126 0 0
+route,ski,relation,,"For ski tracks (e.g., XC-Ski Trails User:Langläufer/Loipemap).",0 1895 2 0
+route,subway,relation,,Route of a metro service,0 2373 0 0
+route,train,relation,,"Train services (e.g., /London-Paris Eurostar/) See Railways.",1 21578 0 76
+route,tracks,relation,,Railroad track as rail infrastructure.,0 4116 0 41
+route,tram,relation,,See Trams for more information on tagging tram services.,1 18630 0 2
+route,trolleybus,relation,,The route of a trolleybus service.,0 329 0 0
+route,/User defined/,relation,,/All commonly used values according to Taginfo/.,0 0 0 0
+shop,alcohol,node area,,Shop selling alcohol to take away,1855 0 365 0
+shop,bakery,node area,,Shop focused on selling bread,32828 1 3887 0
+shop,beverages,node area,,Shop focused on selling alcoholic and non-alcoholic beverages. See also shop=alcohol.,5641 0 2933 0
+shop,brewing_supplies,node area,,"Shop focused on selling supplies for home brewing of beer, wine and spirits (where permitted).",1 0 1 0
+shop,butcher,node area,,Shop focused on selling meat,9878 0 1648 0
+shop,cheese,node area,,Shop focused on selling cheese.,168 0 34 0
+shop,chocolate,node area,,Shop focused on selling chocolate.,144 0 18 0
+shop,coffee,node area,,Shop focused on selling coffee.,787 0 68 0
+shop,confectionery,node area,,Shop focused on selling sweets or candy,984 0 95 0
+shop,convenience,node area,,A small local shop carrying a small subset of the items you would find in a supermarket,7788 0 1297 0
+shop,deli,node area,,"Shop focused on selling delicatessen (fine foods, gourmet foods), possibly also fine wine. Not to be confused with the US delis.",1821 0 152 0
+shop,dairy,node area,,Shop focused on selling dairy products.,66 0 16 0
+shop,farm,node area,,Shop or roadside stand focused on selling freshly harvested farm produce,2973 0 831 0
+shop,frozen_food,node area,,Shop focused on selling frozen food.,8 0 7 0
+shop,greengrocer,node area,,Shop focused on selling vegetables and fruits.,1904 0 363 0
+shop,health_food,node area,,"A health food shop- selling wholefoods, vitamins, nutrition supplements and meat and dairy alternatives.",143 0 12 0
+shop,ice_cream,node area,,Shop selling ice cream. See also amenity=ice_cream.,119 0 19 0
+shop,+organic+,node area,,Shop focused on selling organic food. Alternatively you can use the more versatile organic=* in combination with a general shop=* key (In this case: shop=supermarket or shop=convenience).,0 0 0 0
+shop,pasta,node area,,"Shop focused on selling (fresh) pasta, ravioli, etc.",7 0 0 0
+shop,pastry,node area,,"Shop focused on selling baked sweets like cakes, biscuits, strudel and pies.",323 0 33 0
+shop,seafood,node area,,Shop focused on selling fish/seafood.,768 0 199 0
+shop,spices,node area,,Shop focused on selling spices.,46 0 5 0
+shop,tea,node area,,Shop focused on selling tea.,670 0 42 0
+shop,+wine+,node area,,This tag is deprecated. Please use shop=alcohol + drink:wine=yes instead,0 0 0 0
+shop,water,node area,,Shop focused on selling drinking water.,1 0 0 0
+shop,department_store,node area,,A single large store -- often multiple storeys high -- selling a large variety of goods (see also shop=mall),1274 0 429 0
+shop,general,node area,,A store that carries a general line of merchandise. (see also shop=convenience if it sells food).,180 0 46 0
+shop,kiosk,node area,,"A small shop on the pavement that sells magazines, tobacco, newspapers, sweets and stamps.",9128 0 2034 0
+shop,mall,node area,,A shopping mall -- multiple stores under one roof (also known as a shopping centre),158 0 1664 0
+shop,supermarket,node area,,Supermarket -- a large store with groceries and other items,17404 0 16713 0
+shop,wholesale,node area,,Wholesale/warehouse club or cash and carry - a store that sells items in bulk to retailers. The branch of industry can be defined with wholesale=*.,312 0 304 0
+shop,baby_goods,node area,,"Shop focused on selling objects for babies (clothes, prams, cots, toys).",256 0 60 0
+shop,bag,node area,,Shop focused on selling bags.,444 0 44 0
+shop,boutique,node area,,"A small shopping outlet, especially one that specializes in elite and fashionable items",1294 0 146 0
+shop,clothes,node area,,Shop focused on selling clothes and/or underwear (other related value in use is /fashion/),28311 0 3261 0
+shop,fabric,node area,,"Shop focused on selling fabric and other materials for the purpose of making clothes and other products, eg dress making.",1164 0 146 0
+shop,+fashion+,node area,,"Shop focused on selling fashion. This is deprecated, please use clothes.",0 0 0 0
+shop,fashion_accessories,node area,,Shop focused on selling fashion accessories.,106 0 11 0
+shop,jewelry,node area,,Jewellers shops.,5386 0 394 0
+shop,leather,node area,,Shop focused on selling products made out of leather.,241 0 15 0
+shop,sewing,node area,,"A shop that sells sewing supplies (fabric, thread, yarn, knitting needles, sewing machines, etc.)",200 0 10 0
+shop,shoes,node area,,Shop focused on selling shoes.,6916 0 952 0
+shop,tailor,node area,,"A place where clothing is made, repaired, or altered professionally, especially suits and men's clothing",2243 0 117 0
+shop,watches,node area,,Shop focused on selling watches.,266 0 31 0
+shop,wool,node area,,Shop selling wool for making of clothes or other products.,115 0 6 0
+shop,charity,node area,,"A charity shop is a shop operated by a charity, for the purposes of fundraising.",407 0 64 0
+shop,second_hand,node area,,A shop buying and selling used clothes and other things. See also shop=pawnbroker,957 0 144 0
+shop,variety_store,node area,,"A variety store retailer is a retail store that sells inexpensive items, sometimes with a single price point for all items in the store.",2370 0 570 0
+shop,beauty,node area,,"A non-hairdresser beauty shop, spa, nail salon, etc.. See also shop=hairdresser.",7408 0 496 0
+shop,chemist,node area,,"Shop focused on selling articles of personal hygiene, cosmetics, and household cleaning products (for a shop that potentially dispenses prescription drugs, cf. pharmacy. U.S. drug store, see amenity=pharmacy)",4436 0 1006 0
+shop,cosmetics,node area,,Shop focused on selling cosmetics,1269 0 91 0
+shop,+drugstore+,-,,"This tag is discouraged. Please use either shop=chemist (if they sell prescription-free drugs, cosmetics, household cleaning products, etc.) or amenity=pharmacy (if they offer prescription drugs).",0 0 0 0
+shop,erotic,node area,,"Shop focused on selling erotic toys, -clothes or other erotic stuff.",361 0 62 0
+shop,hairdresser,node area,,"Here you can get your hair cut, coloured, ... See also shop=beauty",28764 0 2327 0
+shop,hairdresser_supply,node area,,"A shop, where you can buy hairdressing supplies.",52 0 4 0
+shop,hearing_aids,node area,,Shop focused on selling hearing aids devices,2102 0 79 0
+shop,herbalist,node area,,"Shop focused on selling herbs, often for medical purposes. (See also: healthcare:speciality=herbalism and healthcare=alternative).",48 0 6 0
+shop,massage,node area,,A massage shop,1899 0 118 0
+shop,medical_supply,node area,,Shop focused on selling medical supplies.,1894 0 200 0
+shop,nutrition_supplements,node area,,"Shops that sells one or more nutritional supplements (of vitamins, minerals and/or herbs)",48 0 9 0
+shop,optician,node area,,"Shop focused on selling eyeglasses, contact lenses (may also check your eyes).",6857 0 491 0
+shop,perfumery,node area,,Shop focused on selling perfumery,772 0 49 0
+shop,tattoo,node area,,A tattoo parlour.,1322 0 80 0
+shop,agrarian,node area,,"Shop focused on selling agrarian products, like seeds, agricultural machinery, animal feed, etc.",188 0 139 0
+shop,appliance,node area,,"Shop focused on selling large electrical items (aka white goods) washing machines, fridges, cookers, ovens, fans, etc.",131 0 24 0
+shop,bathroom_furnishing,node area,,Shop focused on selling bathroom furniture and accessories,246 0 89 0
+shop,doityourself,node area,,"Shop focused on selling tools and supplies to do-it-yourself householders, gardening, ...",2626 0 2892 0
+shop,electrical,node area,,Shop focused on selling electrical supplies and devices,130 0 50 0
+shop,energy,node area,,Shop focused on selling energy,31 0 5 0
+shop,fireplace,node area,,"Shop focused on selling electric fireplaces, stoves or masonry heaters and required fuels",178 0 55 0
+shop,florist,node area,,Shop focused on selling bouquets of flowers (see shop=garden_centre for potted flowers).,9014 0 2065 0
+shop,garden_centre,node area,,"Shop focused on selling potted flowers, maybe even trees (see also shop=florist for flower bouquets).",1567 1 1666 0
+shop,garden_furniture,node area,,"Shop focused on selling garden furniture (sheds, outdoor tables, gates, fences, ...). See shop=garden_centre if also plants are sold.",16 0 7 0
+shop,gas,node area,,"Shop focused on selling technical gas, such as argon, oxygen, acetylene, nitrogen, carbon dioxide, etc. in pressurized containers",66 0 38 0
+shop,glaziery,node area,,Shop focused on selling and installing glazing for windows and doors.,142 0 57 0
+shop,groundskeeping,node area,,"Shop focused on selling outdoor groundskeeping equipment (lawnmowers, chainsaws, small tractors, ...",1 0 0 0
+shop,hardware,node area,,"Shop focused on selling building supplies including screws, bolts & paints, ... See also shop=doityourself",1130 0 476 0
+shop,houseware,node area,,"Shop focused on selling crockery, cutlery, kitchenware, small household appliances.",788 0 98 0
+shop,locksmith,node area,,"Shop focused on selling keys, see also craft=locksmith and craft=key_cutter",430 0 75 0
+shop,paint,node area,,Shop focused on selling paints.,445 0 249 0
+shop,security,node area,,"Shop focused on selling security items like burglar alarms, vaults, locking systems, etc.",57 0 7 0
+shop,trade,node area,,"Shop focused on selling one or more building supplies such as timber/wood, cement etc. See also shop=doityourself",658 0 737 0
+shop,+windows+,node area,,This tag is deprecated. Please use craft=window_construction instead.,0 0 0 0
+shop,antiques,node area,,Shop focused on selling antiques.,845 0 99 0
+shop,bed,node area,,Shop focused on selling mattresses and other bedding products.,1030 0 214 0
+shop,candles,node area,,"Shop focused on selling candles and candle accessories (holders, etc)",46 0 8 0
+shop,carpet,node area,,Shop focused on selling carpets,300 0 94 0
+shop,curtain,node area,,Shop focused on selling curtains or drapes (see also shop=fabric),327 0 83 0
+shop,doors,node area,,Shop focused on selling doors,40 0 7 0
+shop,flooring,node area,,Shop focused on selling floorings,42 0 21 0
+shop,furniture,node area,,"Shop focused on selling furniture, might range from small decorational items to a whole flat interior",3737 0 2133 0
+shop,household_linen,node area,,Shop focused on selling household linen.,3 0 2 0
+shop,interior_decoration,node area,,Shop focused on selling interior decorations.,2398 0 352 0
+shop,kitchen,node area,,"A shop where you can plan and buy your kitchen. (Sometimes called ""kitchen studio"" and the like, but plain kitchen is the most frequently used tag so far.)",1064 0 431 0
+shop,+lamps+,node area,,Use shop=lighting instead.,0 0 0 0
+shop,lighting,node area,,A shop selling lighting fixtures and lamps.,93 0 17 0
+shop,tiles,node area,,Shop focused on selling tiles.,149 0 87 0
+shop,window_blind,node area,,Shop focused on selling window blinds.,111 1 36 0
+shop,computer,node area,,"Shop focused on selling computers, peripherals, software, ...",1922 0 314 0
+shop,electronics,node area,,"Shop focused on selling consumer electronics (TV, radio, ...). Larger ones may also sell computers, fridges, ...",3859 0 1119 0
+shop,hifi,node area,,Shop focused on selling High Fidelity or High End environment to listen music or watch films at home,723 0 118 0
+shop,mobile_phone,node area,,Shop focused on selling mobile phones and accessories,3897 0 226 0
+shop,radiotechnics,node area,,"Shop focused on selling electronic components, electrical products, radio measuring devices, supplies for radio and electronics.",132 0 28 0
+shop,vacuum_cleaner,node area,,Shop focused on selling vacuum cleaners and associated products.,80 0 15 0
+shop,atv,node area,,"Shop focused on selling atvs (quads), atv equipment and may rent or repair them",10 0 6 0
+shop,bicycle,node area,,"Shop focused on selling bicycles, bicycle equipment and may rent or repair them",5382 0 1212 0
+shop,boat,node area,,"Shop focused on selling boats, boat equipment and may rent or repair them",49 0 22 0
+shop,car,node area,,Car store -- a place to buy cars or to get your car repaired,8411 0 8988 0
+shop,car_repair,node area,,Shop focused on car repair (usually independent of a specific car brand).,11054 0 7920 0
+shop,car_parts,node area,,"Shop focused on selling auto parts, auto accessories, motor oil, car chemicals, etc.",958 0 560 0
+shop,caravan,node area,,"A shop for caravans, motorhomes & similar recreational vehicles.",47 0 55 0
+shop,fuel,node area,,"Shop selling fuels (motor fuel, wood, coal, gas) that can't be considered a amenity=fuel (fuel station). Use fuel:*=yes/no to indicate which fuels are available.",12 0 20 0
+shop,fishing,node area,,Shop focused on selling fishing equipment.,217 0 52 0
+shop,golf,node area,,Shop focused on selling golf equipment.,6 0 1 0
+shop,hunting,node area,,Shop focused on selling gun and hunting equipment.,48 0 16 0
+shop,jetski,node area,,"Shop focused on selling jetskis, jetski equipment and may rent or repair them",0 0 0 0
+shop,military_surplus,node area,,Shop selling used military equipment,1 0 1 0
+shop,motorcycle,node area,,"Shop focused on selling motorcycles and/or related accessories, clothes, parts, and rental services.",1194 0 572 0
+shop,outdoor,node area,,"Shop focused on selling camping, walking, climbing, and other outdoor sports equipment (GPSes, etc.)",790 0 165 0
+shop,scuba_diving,node area,,Shop focused on selling scuba diving equipment.,117 0 18 0
+shop,ski,node area,,"Shop focused on selling skis, ski equipment and may rent or repair them",19 0 7 0
+shop,snowmobile,node area,,"Shop focused on selling snowmobiles, snowmobile equipment and may rent or repair them",0 0 0 0
+shop,sports,node area,,Shop focused on selling sporting goods.,2358 0 466 0
+shop,swimming_pool,node area,,A store that sells swimming pool equipment and supplies.,20 0 13 0
+shop,trailer,node area,,Shop focused on selling trailers and parts and/or repairing / renting them,12 0 12 0
+shop,tyres,node area,,Shop focused on selling tyres.,794 0 626 0
+shop,art,node area,,"Shop which sells works of art. May be paintings, sculpture, or other types of art",1452 0 132 0
+shop,collector,node area,,"A shop for different collector's items like stamps, coins, action figures, etc.",65 0 4 0
+shop,craft,node area,,"An arts and crafts supply store. Commonly sold items are paper, canvas, paint, pencils, crafting wood, crafting tools, etc. - look at craft=*",726 0 207 0
+shop,frame,node area,,Shop focused on selling frames.,200 0 21 0
+shop,games,node area,,"Shop focused on selling board games, card games and/or role-playing games.",52 0 3 0
+shop,model,node area,,Shop specialising in the sale of scale models.,98 0 13 0
+shop,music,node area,,Shop focused on selling recorded music (vinyl/CDs/...),461 0 37 0
+shop,musical_instrument,node area,,"Shop focused on selling musical instruments, lyrics, scores. If focused on a specific instrument, specify with musical_instrument=*",759 0 121 0
+shop,photo,node area,,Shop focused on selling products or services related with photography.,1327 0 100 0
+shop,camera,node area,,A shop mainly selling cameras and lenses,27 0 5 0
+shop,trophy,node area,,"Store selling trophies, awards, plaques etc.",30 0 14 0
+shop,video,node area,,Shop focused on selling or renting out videos/DVDs.,347 0 62 0
+shop,video_games,node area,,Shop focused on selling video games.,166 0 18 0
+shop,anime,node area,,Shop focused on selling anime stuff.,3 0 0 0
+shop,books,node area,,"Shop focused on selling books (for a library that lends books, see amenity=library)",4010 0 398 0
+shop,gift,node area,,"Shop focused on selling gifts, greeting cards, or tourist gifts (souvenirs)",3007 0 335 0
+shop,lottery,node area,,A shop of which the main or only purpose is the sale of lottery tickets.,469 0 29 0
+shop,newsagent,node area,,"Shop focused on selling newspapers, cigarettes, other goods",1163 0 134 0
+shop,stationery,node area,,Shop focused on selling office supplies,2742 0 403 0
+shop,ticket,node area,,"Shop focused on selling tickets for concerts, events, public transport, ...",832 0 298 0
+shop,bookmaker,node area,,A shop that takes bets on sporting and other events at agreed upon odds.,564 0 21 0
+shop,cannabis,node area,,a shop primarily and legally selling non-medical cannabis products,27 0 0 0
+shop,copyshop,node area,,Shop focused on selling photocopying and printing services.,1218 0 132 0
+shop,dry_cleaning,node area,,Shop or kiosk offering a clothes dry cleaning service. The actual cleaning may be done elsewhere.,1815 0 144 0
+shop,e-cigarette,node area,,Shop focused on selling electronic cigarettes.,327 0 16 0
+shop,funeral_directors,node area,,"Providing services related to funeral arrangements, may also be known as a ""funeral parlour"" or ""undertakers"".",1894 0 398 0
+shop,laundry,node area,,"A shop to get your normal clothes washed. Might be self service coin operated, with service staff for drop off, ...",1587 0 168 0
+shop,money_lender,node area,,A money lender offers small personal loans at high rates of interest.,5 0 0 0
+shop,party,node area,,"A shop for party and festival supplies, like costumes, etc.",50 0 7 0
+shop,pawnbroker,node area,,A pawnbroker (or pawnshop) is an individual or business that offers secured loans to people. See also shop=second_hand,154 0 7 0
+shop,pet,node area,,"A shop for pets, animals and toys or food for them.",1794 0 544 0
+shop,pet_grooming,node area,,A shop offering grooming services for pets (most frequently dogs),183 0 14 0
+shop,pest_control,node area,,"Shop selling pest control goods to exterminate rats, insects etc.",1 0 0 0
+shop,pyrotechnics,node area,,"Store of pyrotechnics: fireworks, firecrackers, sparklers etc.",8 0 3 0
+shop,religion,node area,,"Shop focused on selling religious articles, church shop. See also religion=*",25 0 2 0
+shop,storage_rental,node area,,self storage,66 0 89 0
+shop,tobacco,node area,,"Shop focused on selling tobacco, cigarettes and their related accessories.",837 0 74 0
+shop,toys,node area,,Shop focused on selling toys.,1816 0 248 0
+shop,travel_agency,node area,,Shop focused on selling tickets for travelling. Also known as a tour operator.,5150 0 433 0
+shop,vacant,node area,,"Not an actual shop, of course. You may want to use this tag when a shop has been closed, to avoid confusing other mappers who may not know about this (please leave a note=*). Plus, you can keep the corresponding object and simply edit it when a new shop opens on the same spot. May be confusing, a vacancy is not a shop and should not show up on maps as a shop. disused:shop=* is an alternative",4108 0 923 0
+shop,weapons,node area,,"Shop focused on selling weapons like knives, guns etc.",133 0 22 0
+shop,outpost,node area,,Shop primarily used to pick-up items ordered online.,9 0 1 0
+shop,user defined,node area,,/All commonly used values according to Taginfo/,0 0 0 0
+sport,9pin,node area,,A bowling game played in Europe with only 9 pins.,525 2 373 0
+sport,10pin,node area,,A bowling game popular in North America with 10 pins.,339 0 187 0
+sport,american_football,node area,,A sport played by two teams of eleven players on a rectangular field with goalposts at each end.,14 0 65 0
+sport,aikido,node area,,A Japanese martial art by blending with the motion of the attacker and redirecting the force of the attack rather than opposing it head-on.,28 0 7 0
+sport,archery,node area,,"The art, practice, or skill of propelling arrows with the use of a bow.",201 3 597 0
+sport,athletics,node way area,,"A collection of sports which combines various athletic contests based on the skills of running, jumping, and throwing.",159 319 6319 0
+sport,australian_football,node area,,"A sport played between two teams of eighteen players on the field of either an Australian football ground, a modified cricket field, or a similarly sized sports venue, also called football, footy, Aussie rules, or AFL.",0 0 3 0
+sport,badminton,node area,,"A racquet sport played by singles or in teams of two, who take positions on opposite halves of a rectangular court (pitch) divided by a net.",11 0 78 0
+sport,bandy,node area,,Bandy is a sport played by two teams of eleven players on a rectangular field.,0 0 0 0
+sport,baseball,node area,,A bat-and-ball game played between two teams of nine players on a field (pitch or stadium) each who take turns batting and fielding.,22 0 342 0
+sport,basketball,node area,,A sport played by two teams of five players on a rectangular court.,846 0 4812 0
+sport,beachvolleyball,node area,,Volleyball played on a sand court,66 0 5514 0
+sport,biathlon,node way area,,The biathlon is a winter sport that combines cross-country skiing and rifle shooting.,3 4 7 0
+sport,billiards,node area,,"Cue sports, a wide variety of games of skill generally played with a cue stick which is used to strike billiard balls, moving them around a cloth-covered billiards table bounded by rubber cushions.",158 0 20 0
+sport,bmx,node way area,,"A cycle sport performed on BMX bikes, either in competitive BMX racing or freestyle BMX, or else in general on- or off-road recreation.",21 70 165 0
+sport,bobsleigh,node way area,,"A winter sport in which teams of two or four make timed runs down narrow, twisting, banked, iced tracks in a gravity-powered sled, also called luge or bobslede.",1 25 4 0
+sport,boules,node area,,"A group of games in which the objective is to throw or roll heavy balls as close as possible to a small target ball, also called pétanque, lyonnaise, bocce, or bocce volo.",233 0 1321 0
+sport,bowls,node area,,Sport in which the objective is to roll biased balls so that they stop close to a smaller ball,29 0 65 0
+sport,boxing,node area,,Boxing is a combat sport in which two people engage in a contest by throwing punches with gloved hands against each other.,43 0 14 0
+sport,bullfighting,node area relation,,"Bullfighting, both on foot and on horseback, is a physical contest in which bulls are fought by humans.",0 0 0 0
+sport,canadian_football,node area,,A sport played by two teams of 12 players on a rectangular field with goal posts at each end.,0 0 2 0
+sport,canoe,node way area relation,,Canoe and Kayak.,367 19 316 0
+sport,chess,node area,,Chess is a popular two-player strategy board game.,500 0 387 0
+sport,cliff_diving,node relation,,Non-competitive diving is jumping from a cliff or a rock into water.,3 0 7 0
+sport,climbing,node way area relation,,"Marks elements to represent natural climbing sites (climbing areas, sectors, crags, frozen waterfalls, etc.) or artificial climbs (climbing walls, indoor climbing halls, etc.)",2560 690 749 0
+sport,climbing_adventure,node area relation,,"Used to tag an area as ""Adventure Park"", ""Ropes Courses"", ""Climbing Adventure"", ""Zip-line"", or ""Treetop Adventure"", where people climb, walk or otherwise move on prebuilt wires and other objects.",58 3 134 0
+sport,cockfighting,node area,,"A blood sport between two roosters (cocks), or more accurately gamecocks, held in a ring called a cockpit.",0 0 0 0
+sport,cricket,node area,,"A bat-and-ball sport contested by two teams, usually of eleven players, each on a large grass Cricket pitch. Played on a large circular or oval-shaped grassy Cricket field ground.",1 0 9 0
+sport,crossfit,node area,,"CrossFit, a branded fitness regimen",11 0 3 0
+sport,croquet,node area relation,,"A sport or game that is played between two or more players embedded on a small grass playing court or pitch which involves hitting plastic or wooden balls with a mallet through hoops (often called ""wickets"" in the United States).",0 0 1 0
+sport,curling,node area relation,,A sport in which players slide stones on a sheet of ice towards a target area which is segmented into four concentric rings.,1 0 5 0
+sport,cycle_polo,node area,,A cycle polo,0 0 1 0
+sport,cycling,node way area relation,,"The use of bicycles for sport, also called bicycling, mountain biking or biking.",118 74 285 0
+sport,darts,node area relation,,Darts is a form of throwing game in which small missiles are thrown at a circular target (dartboard) fixed to a wall.,68 0 17 0
+sport,dog_agility,node area,,Dog agility is a dog sport in which a handler directs a dog through an obstacle course in a race for both time and accuracy.,0 0 4 0
+sport,dog_racing,node way area relation,,A feature used for dog racing,53 0 153 0
+sport,equestrian,node area,,A sport practised with the horse as a partner- but for horse racing use tag:sport=horse_racing.,882 34 15425 0
+sport,fencing,node area relation,,"Fencing is the martial art of fighting with blades. Divided into three weapon categories: foil, sabre (spelled saber in the United States) and épée.",7 0 6 0
+sport,field_hockey,node area,,Field Hockey,10 0 219 0
+sport,fitness,node way area,,Fitness sports,1391 6 432 0
+sport,five-a-side,node area,,A variation of soccer with only 5 persons per team on a smaller pitch,0 0 0 0
+sport,floorball,node area,,Floorball is a type of floor hockey with five players and a goalkeeper in each team.,1 0 0 0
+sport,free_flying,node way area,,Provides a way to tag landing and takeoff for free flying aircraft with additional related amenities.,121 10 123 0
+sport,futsal,node area relation,,Futsal is a sport played by two teams of five players on a rectangular court.,0 0 0 0
+sport,gaelic_games,node area,,"Gaelic Games as played within the GAA in Ireland, including Gaelic Football, Hurling, Ladies Gaelic Football, Camogie, Handball and Rounders",0 0 6 0
+sport,golf,node area,,Golf,89 4 3068 0
+sport,gymnastics,node area,,Gymnastics,618 2 611 0
+sport,handball,node area,,A team sport played with goals and a thrown ball using the hands.,9 0 226 0
+sport,hapkido,node area,,A dynamic and highly eclectic Korean martial art,2 0 0 0
+sport,horseshoes,node area,,Horseshoes,0 0 0 0
+sport,horse_racing,node area,,An equestrian sport in which several horses simultaneously race against each other.,27 23 234 0
+sport,ice_hockey,node area,,Ice hockey ring.,8 0 39 0
+sport,ice_skating,node area,,A sport or pastime by moving on ice while using ice skates.,22 0 118 0
+sport,ice_stock,node area relation,,"Ice stock sport, also known as Bavarian curling, is a winter sport, somewhat similar to curling. In German, it is known as Eisstockschießen.",11 0 464 0
+sport,judo,node area relation,,"Judo (柔道 jūdō, meaning ""gentle way"") is a modern martial art, combat and Olympic sport created in Japan in 1882 by Jigoro Kano (嘉納治五郎).",27 0 19 0
+sport,karate,node area relation,,Karate,37 0 11 0
+sport,karting,node way area,,Kart racing,44 79 153 0
+sport,kickboxing,node area,,Kickboxing is a group of stand-up combat sports based on kicking and punching.,13 0 1 0
+sport,kitesurfing,node area,,Property added to a sports facility to mark as used for kitesurfing,15 0 13 0
+sport,korfball,node area,,Korfball: a team sport played with a ball on a rectangular court,0 0 2 0
+sport,krachtbal,node area,,"Team sport played with a heavy ball on a rectangular pitch, originating in West-Flanders, Belgium",0 0 0 0
+sport,lacrosse,node area,,"A team sport played with a lacrosse stick and a lacrosse ball. Players use the head of the lacrosse stick to carry pass, catch, and shoot the ball into the goal.",0 0 2 0
+sport,martial_arts,node area,,Codified systems and traditions of combat practices,135 0 12 0
+sport,miniature_golf,node area,,"Miniature golf, also known as minigolf, mini-putt, crazy golf, or putt-putt, is an offshoot of the sport of golf focusing solely on the putting aspect of its parent game.",4 0 217 0
+sport,model_aerodrome,node area,,Model aerodrome,104 3 730 0
+sport,motocross,node way area,,Motorcycle racing on unpaved surfaces.,28 180 380 0
+sport,motor,node way area,,"Motorsport: a sport with motorised vehicles, e.g. auto racing",63 378 332 0
+sport,multi,node way area,,"Property added to otherwise marked sports facility to indicate as suitable for more than one sport, without listing them",1014 10 17508 0
+sport,netball,node area relation,,A hand ball competition between two teams on a rectangular court.,0 0 4 0
+sport,obstacle_course,way area,,A series of challenging physical obstacles an individual or team must navigate usually while being timed.,1 2 2 0
+sport,orienteering,node area,,Orienteering,1 0 0 0
+sport,paddle_tennis,node area,,Paddle tennis is a racquet sport adapted from tennis and played for over a century.,0 0 4 0
+sport,padel,node area,,"A racket sport played in pairs. It consists of bouncing the ball in the opponent's court, with the possibility of bouncing it off the walls.",1 0 3 0
+sport,parachuting,node way area,,Parachuting / Skydiving,8 0 7 0
+sport,parkour,node area relation,,Parkour is a training discipline using movement that developed from military obstacle course training.,3 0 19 0
+sport,pedal_car_racing,node way area,,Pedal Car Racing,0 0 0 0
+sport,pelota,node area,,"Pelota, a variety of court sports played with a ball using one's hand, a racket, a wooden bat (pala), or a basket propulsor (txistera), against a wall or with two teams.",1 0 24 0
+sport,pesäpallo,node area,,"Pesäpallo, sometimes known as Finnish baseball, is a fast-moving bat-and-ball sport where the offense tries to score by hitting the ball successfully and running through the bases, while the defense tries to put the batter and runners out.",0 0 0 0
+sport,pickleball,node area,,"Pickleball, a tennis-like game played with a slower ball on a smaller court.",0 0 0 0
+sport,pilates,node area,,Pilates is a physical fitness system developed in the early 20th century by Joseph Pilates.,13 0 1 0
+sport,pole_dance,node area,,Pole dance as kind of sport,6 0 0 0
+sport,racquet,node area,,Racquetball is a racquet sport played with a hollow rubber ball,6 0 9 0
+sport,rc_car,node area,,Radio controlled cars,11 52 126 0
+sport,roller_skating,node way area,,The traveling on surfaces with roller skates.,7 13 85 0
+sport,rowing,node area,,Additional tag added on object to mark them as used for sport of rowing,110 6 232 0
+sport,rugby_league,node area,,Rugby league football,0 0 7 0
+sport,rugby_union,node area,,Rugby union football,1 0 40 0
+sport,running,node way area,,Features dedicated to the sport of running,39 394 2251 0
+sport,sailing,node area,,Sailing: the sport of using wind to power sails which propel a boat,82 0 117 0
+sport,scuba_diving,node way area relation,,To mark a physical object as for scuba diving,405 3 88 0
+sport,shooting,node area,,Identifies given object as used for practicing shooting sports,1126 3 3429 0
+sport,shot-put,node area,,Shot-put is a sport involving throwing a heavy spherical object as far as possible.,0 0 36 0
+sport,skateboard,node area,,An area designated and equipped for skateboarding,426 11 2202 0
+sport,ski_jumping,node way area relation,,Ski jumping is a winter sport in which competitors aim to achieve the longest jump after descending from a specially designed ramp on their skis.,5 28 150 0
+sport,skiing,node area relation,,Identifies given object as used for practicing skiing,74 204 190 0
+sport,snooker,node area,,Snooker is a cue sport that is played on a rectangular table covered with a green cloth with pockets at each of the four corners and in the middle of each long side.,4 0 0 0
+sport,soccer,node area,,"Association football, more commonly known as football or soccer",1458 0 52967 0
+sport,speedway,node area,,"Motorcycle speedway, usually referred to as speedway, is a motorcycle sport involving four and sometimes up to six riders competing over four anti-clockwise laps of an oval circuit.",0 1 4 0
+sport,squash,node area,,"Squash is a racket and ball sport played by two or four players in a four-walled court with a small, hollow rubber ball.",12 0 38 0
+sport,sumo,node area,,A traditional martial arts sport of Japan.,0 0 0 0
+sport,surfing,node area,,Indicates that a sport facility is for surfing.,25 1 20 0
+sport,swimming,node area,,A place where people do swimming,1660 9 7678 0
+sport,table_tennis,node area,,A bat and ball game played over a table.,5987 0 2132 0
+sport,table_soccer,node area relation,,"Table Soccer or Table Football, also known as Foosball, Fussball, Kicker, or Tecball, is a table-top game and sport based off association football (soccer).",78 0 11 0
+sport,taekwondo,node area,,Taekwondo,53 0 12 0
+sport,tennis,node area,,A competition where two or four players use a ball and rackets over a net.,579 1 35248 0
+sport,toboggan,way,,Public toboggan run,11 132 30 21
+sport,ultimate,node area,,"Ultimate, also known as ultimate frisbee, is a team sport played with a flying disc (frisbee).",0 0 0 0
+sport,volleyball,node area,,Volleyball,74 0 1324 0
+sport,wakeboarding,node area,,"Wakeboarding is a water sport in which the rider, standing on a wakeboard, is towed behind a motorboat in order to perform aerial maneuvers.",0 5 1 0
+sport,water_polo,node area,,A competitive ball sport played in a pool between two teams.,1 0 0 0
+sport,water_ski,node area,,Water skiing,22 40 58 0
+sport,weightlifting,node area,,Weightlifting,5 0 3 0
+sport,wrestling,node area,,Wrestling,6 0 9 0
+sport,yoga,node area,,Yoga as exercise,431 0 20 0
+sport,zurkhaneh_sport,node area,,A traditional system of athletics.,0 0 0 0
+telecom,exchange,node area,,A place to connect landlines subscribers to telecommunication service equipments,0 0 0 0
+telecom,connection_point,node area,,Last point of telecom local loops allowing direct connections towards a few households and subscribers,0 0 0 0
+telecom,distribution_point,node,,"Equipment, often small boxes, allowing to directly connect up to 15 individuals or households to a single upstream local loop cable towards telecom exchanges",0 0 0 0
+telecom,service_device,node area,,"Active equipment which deliver service to connected customers. It can be for instance a DSLAM, a telephone switch, or more recently an OLT for optical networks. It excludes amplifiers or repeaters installed along local loops or long distance lines.",0 0 0 0
+telecom,data_center,area,,A building used to house computers and network equipment.,0 0 0 0
+tourism,alpine_hut,node area,,A remote building located in the mountains intended to provide board and lodging.,258 0 265 0
+tourism,apartment,node area,,A furnished apartment or flat with cooking and bathroom facilities that can be rented for holiday vacations.,5079 0 3063 0
+tourism,aquarium,node area,,A facility with living aquatic animals for public viewing.,13 0 20 0
+tourism,artwork,node way area,,A public piece of art.,22944 228 824 1
+tourism,attraction,node area,tourist_attraction,"An object of interest for a tourist, or a purpose-built tourist attraction",12878 606 7313 51
+tourism,camp_pitch,node area,,A tent or caravan pitch location within a campsite or caravan site,282 0 1378 0
+tourism,camp_site,node area,leisure_restrictive,"An area where people can camp overnight using tents, camper vans or caravans.",801 1 3546 0
+tourism,caravan_site,node area,leisure_restrictive,A place where you can stay in a caravan overnight or for longer periods.,1038 0 1710 0
+tourism,chalet,node area,,A holiday cottage with self-contained cooking and bathroom facilities.,2278 2 6713 0
+tourism,gallery,node area,tourist_attraction,An area or building that displays a variety of visual art exhibitions.,957 0 165 0
+tourism,guest_house,node area,,"Accommodation smaller than a hotel and typically owner-operated, such as bed&breakfasts etc.",8129 0 4500 0
+tourism,hostel,node area,,Cheap accommodation with shared bedrooms.,1045 0 1129 0
+tourism,hotel,node area,,Hotel - an establishment that provides paid lodging,13772 0 10569 0
+tourism,information,node area,tourist_attraction,"Information for tourists and visitors, including information offices",223923 21 804 0
+tourism,motel,node area,,"Short term accommodation, particularly for people travelling by car.",159 0 106 0
+tourism,museum,node area,tourist_attraction,"A museum: an institution with exhibitions on scientific, historical, cultural topics",4668 0 3665 0
+tourism,picnic_site,node area,tourist_attraction,"A locality that is suitable for outdoors eating, with facilities to aid a picnic such as tables and benches",29635 2 1340 0
+tourism,theme_park,node area,tourist_attraction,"An amusement park where entertainment is provided by rides, games, concessions.",179 0 327 0
+tourism,viewpoint,node area,tourist_attraction,"A place worth visiting, often high, with a good view of surrounding countryside or notable buildings.",24653 9 1004 0
+tourism,wilderness_hut,node area,tourist_attraction,"A remote building, with generally a fireplace, intended to provide temporary shelter and sleeping accommodation, typically un-serviced and with no staff.",74 0 103 0
+tourism,zoo,node area,tourist_attraction,"A zoological garden, where animals are confined for viewing by the public.",204 2 944 0
+water,river,area,water,The water covered area of a river,1 4 6682 0
+water,oxbow,area,water,An oxbow lake,1 4 912 0
+water,canal,area,water,The area covered by the water of a canal,0 8 1591 0
+water,ditch,area,,The water covered area of a waterway=ditch - a simple artificial waterway serving as a barrier or for draining surrounding land.,0 22 595 0
+water,lock,area,,"A device used for raising and lowering boats, ships and other watercraft between stretches of water of different levels on river and canal waterways",1 1 385 0
+water,fish_pass,area,,Area of a fish pass for the fish to pass waterway dams or weirs. Should contain waterway=fish_pass way inside.,0 1 29 0
+water,lake,area,water,A natural or semi-natural body of relatively still fresh or salt water which is surrounded by land,17 12 6491 0
+water,reservoir,area,water,An artificial lake which may be used to store water.,16 6 6111 0
+water,pond,area,water,"A small body of standing water, man-made in most cases",83 3 68806 0
+water,basin,area,water,An area of land artificially graded to hold water.,16 0 4868 0
+water,lagoon,area,water,A lagoon: a body of shallow sea water or brackish water separated from the sea by a barrier.,0 0 19 0
+water,stream_pool,area,,"A stream pool: a small but relatively deep collection of fresh water, occurring along a narrow stream",0 0 3 0
+water,reflecting_pool,area,,"A reflecting pool: a water feature found in gardens, squares, and at memorial sites, which consists of a shallow pool of water, undisturbed by fountain jets, for a calm reflective surface.",0 0 41 0
+water,moat,area,,"A deep, wide defensive ditch, normally filled with water, dug to surround a fortified habitation.",0 4 100 0
+water,wastewater,area,,A clarifier/settling basin of a wastewater treatment plant.,1 5 7464 0
+waterway,river,way relation,water,"The linear flow of a river, in flow direction.",178 21426 16 458
+waterway,riverbank,area,water,The water-covered area of a river,1 1 6889 0
+waterway,stream,way relation,water,A naturally-forming waterway that is too narrow to be classed as a river.,12 553066 72 572
+waterway,tidal_channel,way,,"A natural intertidal waterway in mangroves, salt marshes and tidal flats with water flow in the direction of the tide",0 377 0 0
+waterway,canal,way relation,water,"An artificial '''open flow''' waterway used to carry useful water for transportation, waterpower, or irrigation.",26 14282 90 37
+waterway,drain,way relation,,"An artificial free flow waterway used for carrying superfluous water, usually lined with concrete.",7 127431 76 56
+waterway,ditch,way relation,,"A small man-made drainage waterway, usually unlined.",9 448487 94 137
+waterway,pressurised,way,,An artificial waterway where water flows in a closed space without air,0 84 0 0
+waterway,fairway,way,,"A navigable route in a lake or sea, often marked by buoys or beacons.",0 148 1 0
+waterway,dock,node area,,An enclosed area of water for ships and other craft within which the height of the water can be managed.,10 2 131 0
+waterway,boatyard,node area,,"A place for constructing, repairing and storing vessels out of the water.",89 2 130 0
+waterway,dam,node way area,,A barrier built across a river or stream to block and regulate the flow of the river.,62 1071 630 3
+waterway,weir,node way,,A barrier built across a river to control water speed and depth. Designed to let water flow over the top all the time or at least in specific conditions.,8416 4004 289 1
+waterway,waterfall,node,,A place where water flows over a vertical drop or a series of drops in the course of a stream or river.,1206 54 4 0
+waterway,lock_gate,node way,,A gate of a lock,1391 540 16 0
+waterway,soakhole,node,,The point at which a river or stream percolates into or through the soil,0 0 0 0
+waterway,turning_point,node,,"A place to turn the driving direction for vessels, where the boats are longer than the river/canal is wide.",37 0 0 0
+waterway,water_point,node,,A place to fill fresh water holding tanks of a boat.,25 0 2 0
+waterway,fuel,node area,,A place to get fuel for boats,107 0 4 0
+area,yes,area,,Means a feature that is normally linear is an area. You should not add this to features that are already defined as an area type.,81 452 99468 23
+bridge,yes / aqueduct / viaduct / cantilever / movable / covered / ...,way,,"A bridge, use together with the tag layer=*. Value /yes/ is generic, or you can specialize.",0 0 0 0
+charge,amount,node way area,,Used for specifying how much is charged for use/access to a facility. See toll=* or fee=*.,0 0 0 0
+covered,yes,node way area,,"Used to denote that a node, way or area is covered by another entity (or in some cases the ground), when the use of layers is inappropriate, or additional clarification is needed.",24637 29007 8331 2294
+crossing,no / traffic_signals / uncontrolled / island / unmarked,node,,Further refinement for nodes already tagged with highway=crossing or railway=crossing,0 0 0 0
+crossing:island,yes / no,node way,,Specifies whether a pedestrian crossing has a refuge island,0 0 0 0
+cutting,yes / left / right,way,,A cut in the land to carry a road or tram. Mostly in hilly landscape. See Cutting on Wikipedia,0 0 0 0
+disused,yes,node way area,,"For features that are useful for navigation, yet are unused. See abandoned=* if infrastructure is removed.",6257 2816 4668 1260
+drive_through,yes / no,node area,,"Used to indicate if a pharmacy, bank, atm, or fast_food, or post_box offers drive_thru service. drive_through=* is different than drive_in=*}",0 0 0 0
+drive_in,yes / no,node area,,Used to indicate if a cinema is a drive-in cinema or a restaurant offers drive-in service. drive_in=* is different than drive_through=*,0 0 0 0
+electrified,contact_line / rail,way,,Indicates infrastructure to supply vehicles with electricity on rail tracks,0 0 0 0
+ele,Number,node area,,"Elevation (also known as altitude or height) above mean sea level in metre, based on geoid model EGM 96 which is used by WGS 84 (GPS). (see also Altitude)",0 0 0 0
+embankment,yes,way,,"A raised bank to carry a road, railway, or canal across a low-lying or wet area. See Embankment on Wikipedia",37 28709 364 12981
+end_date,Date,way,,Date feature was removed,0 0 0 0
+est_width,Number,way,,A rough guess of the width of way in metres,0 0 0 0
+fire_object:type,poo / szo,node way area,,Potentially dangerous and socially significant objects,0 0 0 0
+fire_operator,Name,node way area,,"Fire station, which serves the object",0 0 0 0
+fire_rank,1bis / 2 to 5,node way area,,"Rank fire, defined for a particular object",0 0 0 0
+frequency,Number,node way area,,Frequency in Hz,0 0 0 0
+inscription,User Defined,node way area,,"The full text of inscriptions, which can be found on buildings, memorials and other objects.",0 0 0 0
+internet_access,yes / wired / wlan / terminal / no,node area,,"This tag is for indication that a map entity such as a building, a shop, restaurant, etc. offers internet access to the public, either as a paid service or even for free.",0 0 0 0
+layer,-5 to 5,way,,0: ground (default)- -1..-5:under ground layer- 1..5 (not +1):above ground layer\\,0 0 0 0
+leaf_cycle,evergreen / deciduous / semi_evergreen / semi_deciduous / mixed,node way area,,Describes the phenology of leaves,0 0 0 0
+leaf_type,broadleaved / needleleaved / mixed / leafless,node way area,,Describes the type of leaves,0 0 0 0
+location,underground / overground / underwater / roof / indoor,node way area,,Location,0 0 0 0
+narrow,yes,way,,"Relative indication that a way (waterway, highway, cycleway) gets narrower.",0 0 0 0
+nudism,yes / obligatory / no / customary / permissive,node area,,Indicates if the described object provides the possibility of nudism,0 0 0 0
+opening_hours,24/7 *or* mo md hh:mm-hh:mm. (read described syntax),node way area,,opening_hours describes when something is open.,0 0 0 0
+operator,User Defined,node way area,,The operator tag can be used to name a company or corporation who's responsible for a certain object or who operates it.,0 0 0 0
+produce,User Defined,node area relation,,Describes a feature's agricultural output produced though a natural process of growing or breeding.,0 0 0 0
+start_date,Date,node way area relation,,Date feature was created,0 0 0 0
+service_times,see opening_hours,node area,,Times of service of a given feature e.g. church service,0 0 0 0
+tactile_paving,yes /no,node way area,,Indicate if a specific place can be detected or followed with a blindman's stick.,0 0 0 0
+tidal,yes,area,,Area is flooded by the tide,0 0 0 0
+tunnel,yes,way,,"A tunnel, use together with a tag layer=*.",133 149763 2449 9731
+toilets:wheelchair,yes / no,node area,,States if a location has a wheelchair accessible toilet or not.,0 0 0 0
+wheelchair,yes / no / limited,node way area,,Indicates if a place is accessible using a wheelchair.,0 0 0 0
+width,Number,way,,Width of way in metres,0 0 0 0
+access,agricultural,way,access_agricultural,,
+access,delivery,way,,,
+access,designated,way,,,
+access,destination,way,,,
+access,forestry,way,access_forestry,,
+access,no,way,access_no,,
+access,official,way,,,
+access,permissive,way,access_permissive,,
+access,private,way,access_private,,
+access,yes,way,access_yes,General access permission.,0 0 0 0
+agricultural,yes / no,way,,"Access permission for agricultural vehicles, e.g. tractors.",0 0 0 0
+atv,For values see /access/ above,way,,"Access restricted to wheeled vehicles 1.27m (50 inches) or less in width, for example Wikipedia-16px ATV",0 0 0 0
+bdouble,For values see /access/ above,way area,,"Access permission for Wikipedia-16px Road Train B-double. A B-double (B-Train) consists of a prime mover towing a specialised trailer (known as a ""lead"" or ""A""-trailer) that has a fifth-wheel mounted on the rear towing another semi-trailer, resulting in two articulation points.",0 0 0 0
+bicycle,For values see /access/ above + dismount,way,,"Access permission for bicycles. Usage of bicycle=dismount and bicycle=no will vary in different countries. If according to local traffic rules a bicycle is no longer seen as a bicycle when there's no one driving it, then there's no need for using bicycle=dismount. If the local legislation still sees an undriven bicycle as a bicycle then you may need to use both bicycle=dismount and bicycle=no.",0 0 0 0
+bicycle,agricultural,way,,,
+bicycle,delivery,way,,,
+bicycle,designated,way,,,
+bicycle,destination,way,,,
+bicycle,forestry,way,,,
+bicycle,no,way,bicycle_no,,
+bicycle,official,way,,,
+bicycle,permissive,way,,,
+bicycle,private,way,,,
+bicycle,yes,way,bicycle_yes,,
+boat,For values see /access/ above,way area,,"Access permission for small boats and pleasure crafts, including yachts",0 0 0 0
+electric_bicycle,For values see /access/ above,way node area,,Access permission for electric bicycles (mostly defined as having a maximum speed of 25 km/h),0 0 0 0
+emergency,yes,way,,"Access permission for emergency motor vehicles- e.g., ambulance, fire truck, police car",0 0 0 0
+foot,For values see /access/ above,way,,Access permission for pedestrians.,0 0 0 0
+foot,agricultural,way,,,
+foot,delivery,way,,,
+foot,designated,way,,,
+foot,destination,way,,,
+foot,forestry,way,,,
+foot,no,way,foot_no,,
+foot,official,way,,,
+foot,permissive,way,foot_permissive,,
+foot,private,way,foot_private,,
+foot,yes,way,foot_yes,,
+forestry,yes / no,way,,"Access permission for forestry vehicles, e.g. tractors.",0 0 0 0
+golf_cart,For values see /access/ above,way,,"Access permission for golf carts and similar small, low-speed electric vehicles",0 0 0 0
+goods,For values see /access/ above,way,,"Access permission for Wikipedia-16px light commercial vehicles (LCV) or goods vehicles of category N1 with a maximum allowed mass of up to 3.5 tonnes. In the USA, combined weight 26,000 lbs or less.",0 0 0 0
+hazmat,For values see /access/ above,way,,Access permission for vehicles carrying hazardous materials.,0 0 0 0
+hgv,For values see /access/ above,way,,"Access permission for Wikipedia-16px Heavy Goods Vehicles (HGV) (UK), e.g. for goods vehicles of category N2 and N3 (trucks, lorries) with a maximum allowed mass over 3.5 tonnes. In the USA, combined weight 26,001 lbs or greater.",0 0 0 0
+horse,For values see /access/ above,way,,Access permission for horse riders.,0 0 0 0
+inline_skates,yes / no,way node area,,Access permission for Wikipedia-16px Inline Skates,0 0 0 0
+lhv,For values see /access/ above,way,,"Access permission for Wikipedia-16px Longer Heavier Vehicle (LHV), e.g. for vehicles with 6 axles and can carry up to 44 metric tons",0 0 0 0
+mofa,For values see /access/ above,way,,Access permission for Wikipedia-16px mofas,0 0 0 0
+moped,For values see /access/ above,way,,Access permission for Wikipedia-16px mopeds,0 0 0 0
+motorboat,For values see /access/ above,way area,,Access permission boats and yachts using motor,0 0 0 0
+motorcar,For values see /access/ above,way,,Access permission for (motor) cars,0 0 0 0
+motorcycle,For values see /access/ above,way,,Access permission for motorcycles,0 0 0 0
+motor_vehicle,For values see /access/ above,way,,Access permission for any motorized vehicle,0 0 0 0
+psv,For values see /access/ above,way,,"Access permission for Public Service Vehicles (UK), e.g. buses and coaches",0 0 0 0
+roadtrain,For values see /access/ above,way area,,"Access permission for Wikipedia-16px Road train, A road train consists of a relatively conventional tractor unit, but instead of pulling one trailer or semi-trailer, the road train pulls two or more of them.",0 0 0 0
+ski,For values see /access/ above,way area,,Access permission for Wikipedia-16px skiers,0 0 0 0
+speed_pedelec,For values see /access/ above,way node area,,Access permission for electric bicycles (mostly defined as having a maximum speed of 45 km/h),0 0 0 0
+tank,For values see /access/ above,way area,,Access permission for (military) tanks,0 0 0 0
+vehicle,For values see /access/ above,way,,Access permission for all vehicles,0 0 0 0
+4wd_only,yes,way,,A road signed as only suitable for 4WD (offroad) vehicles,0 0 0 0
+charge,Number,node,,Amount of toll or fee. See toll=* as well,0 0 0 0
+maxaxleload,Weight,way,,The legal maximum axleload -- units other than tonnes should be explicit,0 0 0 0
+maxheight,Height,way,,Height limit -- units other than metres should be explicit,0 0 0 0
+maxlength,Length,way,,Length limit -- units other than metres should be explicit,0 0 0 0
+maxspeed,Speed,way,,Maximum speed -- units other than km/h should be explicit,0 0 0 0
+maxstay,Number,way,,"Maximum stay, in units given (hour/hours/day/days)",0 0 0 0
+maxweight,Weight,way,,Weight limit -- units other than tonnes should be explicit,0 0 0 0
+maxwidth,Width,way,,Width limit -- units other than metres should be explicit,0 0 0 0
+minspeed,Speed,way,,Minimum speed -- units other than km/h should be explicit,0 0 0 0
+noexit,yes,node way,,A dead end road/cul de sac with only one access road,0 0 0 0
+oneway,yes / no / -1,way,,\\,0 0 0 0
+toll,yes,node,,Toll or fee must be paid to access way. See also barrier=toll_booth,14 1176 12 227
+traffic_sign,city_limit,node,,"Start/end sign of city limits, in most countries implies a specific ""city maxspeed"".",0 0 0 0

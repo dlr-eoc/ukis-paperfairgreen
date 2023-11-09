@@ -1,0 +1,40 @@
+[tool.black]
+line-length = 100
+target-version = ['py39']
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+extend-select = [
+    "ANN",
+    "ARG",
+    "B",
+    "BLE",
+    "C4",
+    "CPY",
+    "D",
+    "ERA",
+    "FIX",
+    "ICN",
+    "N",
+    "NPY",
+    "PIE",
+    "PL",
+    "PTH",
+    "Q",
+    "RET",
+    "RSE",
+    "RUF",
+    "SIM",
+    "T10",
+    "T20",
+    "TCH",
+    "TID",
+    "YTT",
+    "UP",
+    "W",
+]

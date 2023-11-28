@@ -3,9 +3,9 @@
 
 This repository contains the scripts developed for the following research paper:
 
-Weigand, M., Wurm, M., Droin, A., Stark, T., Staab, J., Rauh, J., Taubenböck, H. (under review). Are
-public green spaces distributed fairly? A nationwide analysis based on remote sensing, OpenStreetMap
-and census data. Submitted to Geocarto International. DOI WILL BE ADDED UPON PUBLISHING.
+Weigand, M., Wurm, M., Droin, A., Stark, T., Staab, J., Rauh, J., Taubenböck, H. (2023). Are public
+green spaces distributed fairly? A nationwide analysis based on remote sensing, OpenStreetMap and 
+census data. Geocarto International 38(1), 2286305. https://doi.org/10.1080/10106049.2023.2286305
 
 The code was developed at the [German Aerospace Center (DLR)](https://www.dlr.de)
 
